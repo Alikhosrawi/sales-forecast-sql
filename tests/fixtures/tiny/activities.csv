@@ -1,0 +1,5 @@
+activity_id,deal_id,type,occurred_at
+ACT1,T1,call,2026-08-14
+ACT2,T2,email,2026-08-14
+ACT3,T4,meeting,2026-08-14
+ACT4,T5,email,2026-08-14

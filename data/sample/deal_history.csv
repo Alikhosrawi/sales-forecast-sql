@@ -1,0 +1,2316 @@
+deal_id,snapshot_week,stage,amount_eur,close_date,forecast_category
+D0001,2026-01-05,Discovery,35000,2026-02-15,pipeline
+D0002,2026-01-05,Qualification,34500,2026-04-26,pipeline
+D0003,2026-01-05,Qualification,49500,2026-03-29,pipeline
+D0004,2026-01-05,Qualification,69500,2026-02-21,pipeline
+D0005,2026-01-05,Qualification,60000,2026-04-04,pipeline
+D0001,2026-01-12,Solution Design,35000,2026-02-15,best_case
+D0002,2026-01-12,Qualification,34500,2026-04-26,pipeline
+D0003,2026-01-12,Qualification,49500,2026-03-29,pipeline
+D0004,2026-01-12,Qualification,69500,2026-02-21,pipeline
+D0005,2026-01-12,Qualification,60000,2026-04-04,pipeline
+D0006,2026-01-12,Qualification,58000,2026-02-25,pipeline
+D0007,2026-01-12,Discovery,45500,2026-04-22,pipeline
+D0008,2026-01-12,Discovery,48000,2026-04-06,pipeline
+D0009,2026-01-12,Qualification,37000,2026-03-16,pipeline
+D0010,2026-01-12,Qualification,25500,2026-05-02,pipeline
+D0011,2026-01-12,Qualification,152000,2026-03-14,pipeline
+D0012,2026-01-12,Qualification,26000,2026-04-04,pipeline
+D0001,2026-01-19,Solution Design,35000,2026-02-15,best_case
+D0002,2026-01-19,Qualification,34500,2026-04-26,pipeline
+D0003,2026-01-19,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-01-19,Qualification,69500,2026-02-21,pipeline
+D0005,2026-01-19,Qualification,60000,2026-04-04,pipeline
+D0006,2026-01-19,Qualification,58000,2026-02-25,pipeline
+D0007,2026-01-19,Discovery,45500,2026-04-22,pipeline
+D0008,2026-01-19,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-01-19,Discovery,37000,2026-03-16,pipeline
+D0010,2026-01-19,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-01-19,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-01-19,Discovery,26000,2026-04-04,pipeline
+D0013,2026-01-19,Qualification,39000,2026-03-10,pipeline
+D0014,2026-01-19,Qualification,74000,2026-03-30,pipeline
+D0015,2026-01-19,Qualification,43000,2026-05-13,pipeline
+D0001,2026-01-26,Solution Design,35000,2026-02-15,best_case
+D0002,2026-01-26,Discovery,34500,2026-04-05,pipeline
+D0003,2026-01-26,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-01-26,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-01-26,Qualification,60000,2026-04-04,pipeline
+D0006,2026-01-26,Qualification,58000,2026-02-25,pipeline
+D0007,2026-01-26,Solution Design,45500,2026-04-22,best_case
+D0008,2026-01-26,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-01-26,Discovery,37000,2026-03-16,pipeline
+D0010,2026-01-26,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-01-26,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-01-26,Discovery,26000,2026-04-04,pipeline
+D0013,2026-01-26,Qualification,49000,2026-03-10,pipeline
+D0014,2026-01-26,Qualification,74000,2026-03-30,pipeline
+D0015,2026-01-26,Discovery,43000,2026-05-13,pipeline
+D0016,2026-01-26,Qualification,32000,2026-02-28,pipeline
+D0017,2026-01-26,Qualification,16000,2026-04-10,pipeline
+D0018,2026-01-26,Qualification,12500,2026-03-06,pipeline
+D0001,2026-02-02,Solution Design,35000,2026-02-15,best_case
+D0002,2026-02-02,Solution Design,34500,2026-04-05,best_case
+D0003,2026-02-02,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-02-02,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-02-02,Qualification,60000,2026-04-04,pipeline
+D0006,2026-02-02,Discovery,58000,2026-02-25,pipeline
+D0007,2026-02-02,Proposal,45500,2026-04-22,best_case
+D0008,2026-02-02,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-02-02,Discovery,37000,2026-03-03,pipeline
+D0010,2026-02-02,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-02-02,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-02-02,Discovery,26000,2026-04-04,pipeline
+D0013,2026-02-02,Qualification,49000,2026-03-10,pipeline
+D0014,2026-02-02,Discovery,74000,2026-03-30,pipeline
+D0015,2026-02-02,Discovery,43000,2026-05-13,pipeline
+D0016,2026-02-02,Qualification,32000,2026-02-28,pipeline
+D0017,2026-02-02,Discovery,16000,2026-04-10,pipeline
+D0018,2026-02-02,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-02-02,Qualification,28000,2026-04-17,pipeline
+D0020,2026-02-02,Qualification,112000,2026-03-15,pipeline
+D0021,2026-02-02,Qualification,115000,2026-05-18,pipeline
+D0001,2026-02-09,Discovery,35000,2026-02-15,pipeline
+D0002,2026-02-09,Solution Design,34500,2026-04-05,best_case
+D0003,2026-02-09,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-02-09,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-02-09,Qualification,60000,2026-04-04,pipeline
+D0006,2026-02-09,Discovery,58000,2026-02-25,pipeline
+D0007,2026-02-09,Proposal,32000,2026-04-22,best_case
+D0008,2026-02-09,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-02-09,Solution Design,37000,2026-03-03,best_case
+D0010,2026-02-09,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-02-09,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-02-09,Discovery,26000,2026-04-04,pipeline
+D0013,2026-02-09,Discovery,49000,2026-03-10,pipeline
+D0014,2026-02-09,Discovery,74000,2026-04-22,pipeline
+D0015,2026-02-09,Discovery,43000,2026-05-13,pipeline
+D0016,2026-02-09,Discovery,32000,2026-02-28,pipeline
+D0017,2026-02-09,Discovery,16000,2026-04-10,pipeline
+D0018,2026-02-09,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-02-09,Qualification,28000,2026-04-17,pipeline
+D0020,2026-02-09,Qualification,123000,2026-04-11,pipeline
+D0021,2026-02-09,Qualification,115000,2026-05-18,pipeline
+D0022,2026-02-09,Qualification,21500,2026-04-17,pipeline
+D0023,2026-02-09,Qualification,10500,2026-04-12,pipeline
+D0024,2026-02-09,Qualification,45000,2026-05-14,pipeline
+D0025,2026-02-09,Qualification,16000,2026-05-27,pipeline
+D0001,2026-02-16,Discovery,35000,2026-03-02,pipeline
+D0002,2026-02-16,Solution Design,34500,2026-04-05,best_case
+D0003,2026-02-16,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-02-16,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-02-16,Qualification,60000,2026-04-04,pipeline
+D0006,2026-02-16,Discovery,58000,2026-02-25,pipeline
+D0007,2026-02-16,Proposal,32000,2026-04-22,best_case
+D0008,2026-02-16,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-02-16,Solution Design,37000,2026-03-03,best_case
+D0010,2026-02-16,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-02-16,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-02-16,Solution Design,26000,2026-04-04,commit
+D0013,2026-02-16,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-02-16,Solution Design,52000,2026-04-22,best_case
+D0015,2026-02-16,Discovery,47500,2026-05-13,pipeline
+D0016,2026-02-16,Discovery,32000,2026-02-28,pipeline
+D0017,2026-02-16,Discovery,16000,2026-04-10,pipeline
+D0018,2026-02-16,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-02-16,Qualification,28000,2026-04-17,pipeline
+D0020,2026-02-16,Qualification,104500,2026-04-11,pipeline
+D0021,2026-02-16,Qualification,115000,2026-05-18,pipeline
+D0022,2026-02-16,Qualification,21500,2026-04-17,pipeline
+D0023,2026-02-16,Qualification,10500,2026-04-12,pipeline
+D0024,2026-02-16,Qualification,38000,2026-05-14,pipeline
+D0025,2026-02-16,Qualification,16000,2026-05-27,pipeline
+D0026,2026-02-16,Qualification,56500,2026-04-13,pipeline
+D0027,2026-02-16,Qualification,11500,2026-06-15,pipeline
+D0028,2026-02-16,Qualification,26500,2026-05-28,pipeline
+D0029,2026-02-16,Discovery,178000,2026-03-22,pipeline
+D0001,2026-02-23,Discovery,35000,2026-03-02,pipeline
+D0002,2026-02-23,Solution Design,34500,2026-04-05,best_case
+D0003,2026-02-23,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-02-23,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-02-23,Qualification,60000,2026-04-04,pipeline
+D0006,2026-02-23,Discovery,58000,2026-02-25,pipeline
+D0007,2026-02-23,Proposal,32000,2026-04-22,best_case
+D0008,2026-02-23,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-02-23,Proposal,37000,2026-03-03,commit
+D0010,2026-02-23,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-02-23,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-02-23,Solution Design,26000,2026-03-21,commit
+D0013,2026-02-23,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-02-23,Solution Design,52000,2026-04-22,best_case
+D0015,2026-02-23,Discovery,47500,2026-05-13,pipeline
+D0016,2026-02-23,Discovery,32000,2026-02-28,pipeline
+D0017,2026-02-23,Discovery,16000,2026-04-10,pipeline
+D0018,2026-02-23,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-02-23,Qualification,19500,2026-04-17,pipeline
+D0020,2026-02-23,Qualification,104500,2026-04-11,pipeline
+D0021,2026-02-23,Qualification,115000,2026-05-18,pipeline
+D0022,2026-02-23,Qualification,23500,2026-04-17,pipeline
+D0023,2026-02-23,Qualification,10500,2026-04-12,pipeline
+D0024,2026-02-23,Qualification,38000,2026-05-14,pipeline
+D0025,2026-02-23,Qualification,16000,2026-05-27,pipeline
+D0026,2026-02-23,Qualification,56500,2026-03-20,pipeline
+D0027,2026-02-23,Qualification,11500,2026-06-15,pipeline
+D0028,2026-02-23,Qualification,26500,2026-05-28,pipeline
+D0029,2026-02-23,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-02-23,Qualification,11500,2026-05-05,pipeline
+D0031,2026-02-23,Qualification,28000,2026-04-01,pipeline
+D0032,2026-02-23,Discovery,26000,2026-04-24,pipeline
+D0001,2026-03-02,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-03-02,Solution Design,34500,2026-04-05,best_case
+D0003,2026-03-02,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-03-02,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-03-02,Discovery,60000,2026-04-04,pipeline
+D0006,2026-03-02,Solution Design,58000,2026-04-07,best_case
+D0007,2026-03-02,Negotiation,40000,2026-04-22,best_case
+D0008,2026-03-02,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-03-02,Proposal,37000,2026-03-03,commit
+D0010,2026-03-02,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-03-02,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-03-02,Solution Design,26000,2026-03-21,commit
+D0013,2026-03-02,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-03-02,Solution Design,52000,2026-04-22,best_case
+D0015,2026-03-02,Discovery,47500,2026-05-13,pipeline
+D0016,2026-03-02,Discovery,32000,2026-03-27,pipeline
+D0017,2026-03-02,Discovery,16000,2026-04-10,pipeline
+D0018,2026-03-02,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-03-02,Qualification,19500,2026-04-17,pipeline
+D0020,2026-03-02,Discovery,104500,2026-04-11,pipeline
+D0021,2026-03-02,Qualification,126500,2026-05-18,pipeline
+D0022,2026-03-02,Qualification,20000,2026-04-17,pipeline
+D0023,2026-03-02,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-03-02,Qualification,38000,2026-05-14,pipeline
+D0025,2026-03-02,Qualification,16000,2026-05-27,pipeline
+D0026,2026-03-02,Qualification,56500,2026-03-20,pipeline
+D0027,2026-03-02,Qualification,11500,2026-07-07,pipeline
+D0028,2026-03-02,Discovery,26500,2026-05-28,pipeline
+D0029,2026-03-02,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-03-02,Qualification,11500,2026-05-05,pipeline
+D0031,2026-03-02,Qualification,31000,2026-04-01,pipeline
+D0032,2026-03-02,Solution Design,26000,2026-04-24,best_case
+D0033,2026-03-02,Qualification,21000,2026-05-10,pipeline
+D0034,2026-03-02,Qualification,60000,2026-06-07,pipeline
+D0035,2026-03-02,Discovery,54000,2026-06-27,pipeline
+D0036,2026-03-02,Qualification,118000,2026-05-30,pipeline
+D0037,2026-03-02,Qualification,113000,2026-04-21,pipeline
+D0001,2026-03-09,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-03-09,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-03-09,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-03-09,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-03-09,Solution Design,60000,2026-04-04,best_case
+D0006,2026-03-09,Solution Design,58000,2026-04-07,best_case
+D0007,2026-03-09,Negotiation,40000,2026-04-22,best_case
+D0008,2026-03-09,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-03-09,Proposal,37000,2026-04-13,commit
+D0010,2026-03-09,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-03-09,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-03-09,Solution Design,18000,2026-03-21,commit
+D0013,2026-03-09,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-03-09,Proposal,52000,2026-04-22,best_case
+D0015,2026-03-09,Qualification,47500,2026-05-13,pipeline
+D0016,2026-03-09,Discovery,32000,2026-03-27,pipeline
+D0017,2026-03-09,Discovery,16000,2026-04-10,pipeline
+D0018,2026-03-09,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-03-09,Discovery,19500,2026-04-17,pipeline
+D0020,2026-03-09,Solution Design,104500,2026-04-11,best_case
+D0021,2026-03-09,Qualification,126500,2026-05-18,pipeline
+D0022,2026-03-09,Discovery,20000,2026-04-17,pipeline
+D0023,2026-03-09,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-03-09,Discovery,38000,2026-05-14,best_case
+D0025,2026-03-09,Qualification,16000,2026-05-27,pipeline
+D0026,2026-03-09,Qualification,56500,2026-03-20,pipeline
+D0027,2026-03-09,Qualification,11500,2026-07-07,pipeline
+D0028,2026-03-09,Discovery,26500,2026-05-28,pipeline
+D0029,2026-03-09,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-03-09,Qualification,12500,2026-05-05,pipeline
+D0031,2026-03-09,Qualification,31000,2026-04-01,pipeline
+D0032,2026-03-09,Solution Design,26000,2026-04-24,best_case
+D0033,2026-03-09,Qualification,21000,2026-05-10,pipeline
+D0034,2026-03-09,Qualification,60000,2026-06-07,pipeline
+D0035,2026-03-09,Solution Design,54000,2026-06-27,best_case
+D0036,2026-03-09,Discovery,118000,2026-05-30,pipeline
+D0037,2026-03-09,Discovery,113000,2026-04-21,pipeline
+D0038,2026-03-09,Qualification,22000,2026-05-26,pipeline
+D0039,2026-03-09,Discovery,7500,2026-07-01,pipeline
+D0040,2026-03-09,Qualification,8000,2026-04-17,pipeline
+D0041,2026-03-09,Qualification,75500,2026-07-05,pipeline
+D0042,2026-03-09,Qualification,45500,2026-06-11,pipeline
+D0001,2026-03-16,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-03-16,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-03-16,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-03-16,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-03-16,Discovery,60000,2026-04-04,best_case
+D0006,2026-03-16,Solution Design,58000,2026-04-07,best_case
+D0007,2026-03-16,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-03-16,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-03-16,Proposal,37000,2026-04-13,commit
+D0010,2026-03-16,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-03-16,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-03-16,Solution Design,18000,2026-03-21,commit
+D0013,2026-03-16,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-03-16,Proposal,52000,2026-04-22,best_case
+D0015,2026-03-16,Discovery,47500,2026-05-13,pipeline
+D0016,2026-03-16,Discovery,32000,2026-03-27,pipeline
+D0017,2026-03-16,Discovery,13500,2026-04-10,pipeline
+D0018,2026-03-16,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-03-16,Discovery,19500,2026-04-17,pipeline
+D0020,2026-03-16,Solution Design,104500,2026-04-11,best_case
+D0021,2026-03-16,Qualification,126500,2026-05-18,pipeline
+D0022,2026-03-16,Discovery,20000,2026-05-17,pipeline
+D0023,2026-03-16,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-03-16,Discovery,38000,2026-04-23,best_case
+D0025,2026-03-16,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-03-16,Discovery,56500,2026-03-20,pipeline
+D0027,2026-03-16,Qualification,11500,2026-07-07,pipeline
+D0028,2026-03-16,Solution Design,33000,2026-05-28,best_case
+D0029,2026-03-16,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-03-16,Discovery,12500,2026-05-05,pipeline
+D0031,2026-03-16,Qualification,31000,2026-04-01,pipeline
+D0032,2026-03-16,Proposal,26000,2026-04-24,best_case
+D0033,2026-03-16,Qualification,21000,2026-05-10,pipeline
+D0034,2026-03-16,Discovery,60000,2026-06-07,pipeline
+D0035,2026-03-16,Proposal,54000,2026-06-27,pipeline
+D0036,2026-03-16,Discovery,118000,2026-05-30,pipeline
+D0037,2026-03-16,Discovery,113000,2026-04-21,pipeline
+D0038,2026-03-16,Discovery,22000,2026-05-26,pipeline
+D0039,2026-03-16,Discovery,7500,2026-07-01,pipeline
+D0040,2026-03-16,Qualification,8000,2026-04-17,pipeline
+D0041,2026-03-16,Discovery,75500,2026-07-05,pipeline
+D0042,2026-03-16,Discovery,45500,2026-06-11,pipeline
+D0043,2026-03-16,Qualification,44000,2026-06-10,pipeline
+D0044,2026-03-16,Qualification,33500,2026-05-09,pipeline
+D0045,2026-03-16,Qualification,48500,2026-04-23,pipeline
+D0046,2026-03-16,Discovery,61000,2026-06-12,pipeline
+D0047,2026-03-16,Qualification,48500,2026-07-07,pipeline
+D0001,2026-03-23,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-03-23,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-03-23,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-03-23,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-03-23,Solution Design,60000,2026-04-04,commit
+D0006,2026-03-23,Solution Design,58000,2026-04-07,best_case
+D0007,2026-03-23,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-03-23,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-03-23,Proposal,37000,2026-04-13,commit
+D0010,2026-03-23,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-03-23,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-03-23,Solution Design,18000,2026-04-04,commit
+D0013,2026-03-23,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-03-23,Proposal,36500,2026-04-22,best_case
+D0015,2026-03-23,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-03-23,Discovery,32000,2026-03-27,pipeline
+D0017,2026-03-23,Discovery,13500,2026-04-10,pipeline
+D0018,2026-03-23,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-03-23,Discovery,19500,2026-04-17,pipeline
+D0020,2026-03-23,Solution Design,104500,2026-04-11,best_case
+D0021,2026-03-23,Discovery,126500,2026-05-18,pipeline
+D0022,2026-03-23,Discovery,20000,2026-05-17,pipeline
+D0023,2026-03-23,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-03-23,Discovery,38000,2026-04-23,best_case
+D0025,2026-03-23,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-03-23,Discovery,56500,2026-04-17,pipeline
+D0027,2026-03-23,Discovery,11500,2026-07-07,pipeline
+D0028,2026-03-23,Solution Design,33000,2026-05-28,best_case
+D0029,2026-03-23,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-03-23,Discovery,12500,2026-05-05,pipeline
+D0031,2026-03-23,Qualification,31000,2026-04-01,pipeline
+D0032,2026-03-23,Negotiation,26000,2026-04-24,commit
+D0033,2026-03-23,Discovery,21000,2026-05-10,pipeline
+D0034,2026-03-23,Qualification,60000,2026-06-07,pipeline
+D0035,2026-03-23,Proposal,54000,2026-06-27,pipeline
+D0036,2026-03-23,Discovery,118000,2026-05-30,pipeline
+D0037,2026-03-23,Discovery,113000,2026-04-21,pipeline
+D0038,2026-03-23,Discovery,22000,2026-05-26,pipeline
+D0039,2026-03-23,Discovery,7500,2026-07-01,pipeline
+D0040,2026-03-23,Qualification,8000,2026-04-17,pipeline
+D0041,2026-03-23,Solution Design,75500,2026-07-05,best_case
+D0042,2026-03-23,Discovery,45500,2026-06-11,pipeline
+D0043,2026-03-23,Qualification,44000,2026-06-10,pipeline
+D0044,2026-03-23,Qualification,33500,2026-05-09,pipeline
+D0045,2026-03-23,Qualification,53500,2026-04-23,pipeline
+D0046,2026-03-23,Discovery,61000,2026-06-12,pipeline
+D0047,2026-03-23,Discovery,48500,2026-07-07,pipeline
+D0048,2026-03-23,Qualification,14500,2026-07-14,pipeline
+D0049,2026-03-23,Qualification,9000,2026-06-20,pipeline
+D0050,2026-03-23,Discovery,76500,2026-04-29,pipeline
+D0001,2026-03-30,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-03-30,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-03-30,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-03-30,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-03-30,Proposal,60000,2026-04-04,best_case
+D0006,2026-03-30,Proposal,58000,2026-04-07,best_case
+D0007,2026-03-30,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-03-30,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-03-30,Proposal,37000,2026-04-13,commit
+D0010,2026-03-30,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-03-30,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-03-30,Proposal,18000,2026-04-04,commit
+D0013,2026-03-30,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-03-30,Negotiation,36500,2026-04-22,commit
+D0015,2026-03-30,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-03-30,Discovery,32000,2026-04-25,pipeline
+D0017,2026-03-30,Discovery,13500,2026-04-10,pipeline
+D0018,2026-03-30,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-03-30,Solution Design,19500,2026-04-17,best_case
+D0020,2026-03-30,Solution Design,104500,2026-04-11,best_case
+D0021,2026-03-30,Solution Design,126500,2026-05-18,commit
+D0022,2026-03-30,Solution Design,20000,2026-05-17,best_case
+D0023,2026-03-30,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-03-30,Discovery,38000,2026-04-23,best_case
+D0025,2026-03-30,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-03-30,Discovery,56500,2026-04-17,pipeline
+D0027,2026-03-30,Discovery,11500,2026-07-07,pipeline
+D0028,2026-03-30,Solution Design,23000,2026-05-28,best_case
+D0029,2026-03-30,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-03-30,Discovery,12500,2026-05-05,pipeline
+D0031,2026-03-30,Qualification,31000,2026-04-01,pipeline
+D0032,2026-03-30,Negotiation,26000,2026-04-24,commit
+D0033,2026-03-30,Discovery,21000,2026-05-10,pipeline
+D0034,2026-03-30,Discovery,60000,2026-06-07,pipeline
+D0035,2026-03-30,Proposal,54000,2026-06-27,pipeline
+D0036,2026-03-30,Discovery,82500,2026-05-30,pipeline
+D0037,2026-03-30,Discovery,141000,2026-04-21,pipeline
+D0038,2026-03-30,Solution Design,22000,2026-05-26,best_case
+D0039,2026-03-30,Discovery,7500,2026-07-01,pipeline
+D0040,2026-03-30,Discovery,8000,2026-04-17,best_case
+D0041,2026-03-30,Solution Design,75500,2026-07-05,best_case
+D0042,2026-03-30,Solution Design,45500,2026-06-11,commit
+D0043,2026-03-30,Qualification,44000,2026-06-10,pipeline
+D0044,2026-03-30,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-03-30,Qualification,53500,2026-04-23,pipeline
+D0046,2026-03-30,Discovery,61000,2026-06-12,pipeline
+D0047,2026-03-30,Discovery,48500,2026-07-27,pipeline
+D0048,2026-03-30,Discovery,14500,2026-07-14,pipeline
+D0049,2026-03-30,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-03-30,Discovery,76500,2026-04-29,pipeline
+D0051,2026-03-30,Discovery,11000,2026-07-17,pipeline
+D0052,2026-03-30,Discovery,38000,2026-06-08,pipeline
+D0053,2026-03-30,Discovery,22500,2026-06-22,pipeline
+D0001,2026-04-06,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-04-06,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-04-06,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-04-06,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-04-06,Proposal,60000,2026-04-30,best_case
+D0006,2026-04-06,Negotiation,58000,2026-04-07,commit
+D0007,2026-04-06,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-04-06,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-04-06,Negotiation,37000,2026-04-13,commit
+D0010,2026-04-06,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-04-06,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-04-06,Proposal,22500,2026-05-19,commit
+D0013,2026-04-06,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-04-06,Negotiation,36500,2026-04-22,commit
+D0015,2026-04-06,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-04-06,Discovery,32000,2026-04-25,pipeline
+D0017,2026-04-06,Discovery,13500,2026-04-10,pipeline
+D0018,2026-04-06,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-04-06,Solution Design,19500,2026-04-17,best_case
+D0020,2026-04-06,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-04-06,Discovery,126500,2026-05-18,pipeline
+D0022,2026-04-06,Solution Design,20000,2026-05-17,best_case
+D0023,2026-04-06,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-04-06,Discovery,38000,2026-04-23,best_case
+D0025,2026-04-06,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-04-06,Solution Design,56500,2026-04-17,best_case
+D0027,2026-04-06,Solution Design,11500,2026-07-07,best_case
+D0028,2026-04-06,Solution Design,23000,2026-05-28,best_case
+D0029,2026-04-06,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-04-06,Solution Design,12500,2026-05-05,best_case
+D0031,2026-04-06,Discovery,31000,2026-04-01,pipeline
+D0032,2026-04-06,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-04-06,Solution Design,21000,2026-05-10,best_case
+D0034,2026-04-06,Discovery,60000,2026-06-07,pipeline
+D0035,2026-04-06,Proposal,54000,2026-06-27,pipeline
+D0036,2026-04-06,Discovery,82500,2026-05-30,pipeline
+D0037,2026-04-06,Discovery,141000,2026-04-21,pipeline
+D0038,2026-04-06,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-04-06,Discovery,7500,2026-07-01,pipeline
+D0040,2026-04-06,Discovery,9000,2026-04-17,best_case
+D0041,2026-04-06,Solution Design,75500,2026-07-05,best_case
+D0042,2026-04-06,Proposal,45500,2026-06-11,best_case
+D0043,2026-04-06,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-04-06,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-04-06,Discovery,53500,2026-04-23,pipeline
+D0046,2026-04-06,Discovery,61000,2026-05-24,pipeline
+D0047,2026-04-06,Discovery,48500,2026-07-27,pipeline
+D0048,2026-04-06,Discovery,14500,2026-07-14,pipeline
+D0049,2026-04-06,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-04-06,Solution Design,76500,2026-04-29,best_case
+D0051,2026-04-06,Discovery,14000,2026-07-17,pipeline
+D0052,2026-04-06,Discovery,38000,2026-06-08,pipeline
+D0053,2026-04-06,Solution Design,22500,2026-06-22,best_case
+D0054,2026-04-06,Qualification,33000,2026-06-08,pipeline
+D0055,2026-04-06,Qualification,43000,2026-06-28,pipeline
+D0056,2026-04-06,Qualification,81000,2026-06-17,pipeline
+D0001,2026-04-13,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-04-13,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-04-13,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-04-13,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-04-13,Proposal,60000,2026-04-30,best_case
+D0006,2026-04-13,Negotiation,49500,2026-05-20,commit
+D0007,2026-04-13,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-04-13,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-04-13,Proposal,37000,2026-04-13,best_case
+D0010,2026-04-13,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-04-13,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-04-13,Proposal,15500,2026-05-19,commit
+D0013,2026-04-13,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-04-13,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-04-13,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-04-13,Discovery,32000,2026-04-25,pipeline
+D0017,2026-04-13,Discovery,13500,2026-05-18,pipeline
+D0018,2026-04-13,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-04-13,Solution Design,19500,2026-04-17,best_case
+D0020,2026-04-13,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-04-13,Discovery,126500,2026-05-18,pipeline
+D0022,2026-04-13,Solution Design,20000,2026-05-17,best_case
+D0023,2026-04-13,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-04-13,Discovery,38000,2026-04-23,best_case
+D0025,2026-04-13,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-04-13,Solution Design,56500,2026-04-17,best_case
+D0027,2026-04-13,Solution Design,11500,2026-07-07,best_case
+D0028,2026-04-13,Solution Design,23000,2026-05-28,best_case
+D0029,2026-04-13,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-04-13,Proposal,12500,2026-05-05,best_case
+D0031,2026-04-13,Discovery,26500,2026-05-17,pipeline
+D0032,2026-04-13,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-04-13,Solution Design,21000,2026-05-10,best_case
+D0034,2026-04-13,Discovery,60000,2026-06-07,pipeline
+D0035,2026-04-13,Negotiation,54000,2026-06-27,best_case
+D0036,2026-04-13,Discovery,82500,2026-05-30,pipeline
+D0037,2026-04-13,Discovery,141000,2026-04-21,pipeline
+D0038,2026-04-13,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-04-13,Solution Design,7500,2026-07-01,best_case
+D0040,2026-04-13,Solution Design,9000,2026-04-17,best_case
+D0041,2026-04-13,Proposal,75500,2026-07-05,best_case
+D0042,2026-04-13,Proposal,45500,2026-06-11,best_case
+D0043,2026-04-13,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-04-13,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-04-13,Discovery,53500,2026-04-23,pipeline
+D0046,2026-04-13,Discovery,61000,2026-05-24,pipeline
+D0047,2026-04-13,Discovery,48500,2026-07-27,pipeline
+D0048,2026-04-13,Solution Design,14500,2026-07-14,pipeline
+D0049,2026-04-13,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-04-13,Solution Design,76500,2026-04-29,best_case
+D0051,2026-04-13,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-04-13,Discovery,38000,2026-06-08,pipeline
+D0053,2026-04-13,Solution Design,22500,2026-06-22,best_case
+D0054,2026-04-13,Discovery,33000,2026-06-08,pipeline
+D0055,2026-04-13,Qualification,43000,2026-06-28,pipeline
+D0056,2026-04-13,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-04-13,Discovery,35000,2026-06-16,pipeline
+D0058,2026-04-13,Qualification,127500,2026-05-25,pipeline
+D0059,2026-04-13,Qualification,126000,2026-07-19,pipeline
+D0060,2026-04-13,Qualification,108000,2026-07-26,pipeline
+D0061,2026-04-13,Discovery,9500,2026-08-03,pipeline
+D0062,2026-04-13,Qualification,30500,2026-07-09,pipeline
+D0001,2026-04-20,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-04-20,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-04-20,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-04-20,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-04-20,Proposal,60000,2026-04-30,best_case
+D0006,2026-04-20,Negotiation,42000,2026-06-04,commit
+D0007,2026-04-20,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-04-20,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-04-20,Proposal,37000,2026-06-01,best_case
+D0010,2026-04-20,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-04-20,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-04-20,Proposal,15500,2026-05-19,commit
+D0013,2026-04-20,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-04-20,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-04-20,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-04-20,Discovery,32000,2026-04-25,pipeline
+D0017,2026-04-20,Solution Design,13500,2026-05-18,commit
+D0018,2026-04-20,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-04-20,Solution Design,19500,2026-05-04,best_case
+D0020,2026-04-20,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-04-20,Discovery,126500,2026-05-18,pipeline
+D0022,2026-04-20,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-04-20,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-04-20,Solution Design,38000,2026-04-23,best_case
+D0025,2026-04-20,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-04-20,Solution Design,56500,2026-05-07,best_case
+D0027,2026-04-20,Proposal,14500,2026-07-07,best_case
+D0028,2026-04-20,Solution Design,23000,2026-05-28,best_case
+D0029,2026-04-20,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-04-20,Proposal,12500,2026-05-05,best_case
+D0031,2026-04-20,Discovery,33000,2026-05-17,pipeline
+D0032,2026-04-20,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-04-20,Proposal,21000,2026-05-10,best_case
+D0034,2026-04-20,Discovery,60000,2026-06-07,pipeline
+D0035,2026-04-20,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-04-20,Discovery,82500,2026-05-30,pipeline
+D0037,2026-04-20,Discovery,98500,2026-04-21,pipeline
+D0038,2026-04-20,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-04-20,Solution Design,7500,2026-07-01,best_case
+D0040,2026-04-20,Solution Design,9000,2026-04-17,best_case
+D0041,2026-04-20,Proposal,75500,2026-07-05,best_case
+D0042,2026-04-20,Solution Design,45500,2026-06-11,pipeline
+D0043,2026-04-20,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-04-20,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-04-20,Solution Design,53500,2026-04-23,best_case
+D0046,2026-04-20,Solution Design,61000,2026-05-24,best_case
+D0047,2026-04-20,Discovery,41000,2026-07-27,pipeline
+D0048,2026-04-20,Solution Design,14500,2026-07-14,pipeline
+D0049,2026-04-20,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-04-20,Solution Design,76500,2026-04-29,best_case
+D0051,2026-04-20,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-04-20,Discovery,38000,2026-06-08,pipeline
+D0053,2026-04-20,Proposal,22500,2026-06-02,best_case
+D0054,2026-04-20,Solution Design,33000,2026-06-08,best_case
+D0055,2026-04-20,Qualification,43000,2026-06-28,pipeline
+D0056,2026-04-20,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-04-20,Discovery,35000,2026-06-16,pipeline
+D0058,2026-04-20,Qualification,127500,2026-05-25,pipeline
+D0059,2026-04-20,Qualification,126000,2026-07-19,pipeline
+D0060,2026-04-20,Qualification,75500,2026-07-26,pipeline
+D0061,2026-04-20,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-04-20,Qualification,30500,2026-07-09,pipeline
+D0063,2026-04-20,Qualification,58000,2026-08-04,pipeline
+D0064,2026-04-20,Qualification,52000,2026-07-22,pipeline
+D0001,2026-04-27,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-04-27,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-04-27,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-04-27,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-04-27,Proposal,60000,2026-04-30,best_case
+D0006,2026-04-27,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-04-27,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-04-27,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-04-27,Negotiation,37000,2026-06-01,commit
+D0010,2026-04-27,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-04-27,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-04-27,Negotiation,15500,2026-05-19,commit
+D0013,2026-04-27,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-04-27,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-04-27,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-04-27,Discovery,32000,2026-05-18,pipeline
+D0017,2026-04-27,Proposal,13500,2026-05-18,best_case
+D0018,2026-04-27,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-04-27,Solution Design,21500,2026-05-04,best_case
+D0020,2026-04-27,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-04-27,Discovery,126500,2026-05-18,pipeline
+D0022,2026-04-27,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-04-27,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-04-27,Solution Design,38000,2026-05-26,best_case
+D0025,2026-04-27,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-04-27,Proposal,48000,2026-06-05,pipeline
+D0027,2026-04-27,Negotiation,14500,2026-07-07,commit
+D0028,2026-04-27,Solution Design,23000,2026-05-14,best_case
+D0029,2026-04-27,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-04-27,Proposal,12500,2026-05-05,best_case
+D0031,2026-04-27,Discovery,33000,2026-05-17,pipeline
+D0032,2026-04-27,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-04-27,Proposal,21000,2026-05-10,best_case
+D0034,2026-04-27,Solution Design,60000,2026-06-07,best_case
+D0035,2026-04-27,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-04-27,Discovery,82500,2026-05-30,pipeline
+D0037,2026-04-27,Discovery,98500,2026-05-18,pipeline
+D0038,2026-04-27,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-04-27,Solution Design,7500,2026-07-01,best_case
+D0040,2026-04-27,Proposal,9000,2026-04-17,best_case
+D0041,2026-04-27,Proposal,75500,2026-07-05,best_case
+D0042,2026-04-27,Solution Design,45500,2026-06-11,pipeline
+D0043,2026-04-27,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-04-27,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-04-27,Solution Design,59000,2026-04-23,best_case
+D0046,2026-04-27,Solution Design,61000,2026-05-24,best_case
+D0047,2026-04-27,Discovery,41000,2026-07-27,pipeline
+D0048,2026-04-27,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-04-27,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-04-27,Solution Design,76500,2026-04-29,best_case
+D0051,2026-04-27,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-04-27,Solution Design,38000,2026-06-08,best_case
+D0053,2026-04-27,Proposal,22500,2026-06-02,best_case
+D0054,2026-04-27,Solution Design,33000,2026-06-08,best_case
+D0055,2026-04-27,Qualification,43000,2026-07-12,pipeline
+D0056,2026-04-27,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-04-27,Discovery,35000,2026-06-16,pipeline
+D0058,2026-04-27,Qualification,127500,2026-05-25,pipeline
+D0059,2026-04-27,Qualification,126000,2026-07-19,pipeline
+D0060,2026-04-27,Qualification,64000,2026-07-26,pipeline
+D0061,2026-04-27,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-04-27,Discovery,30500,2026-07-09,pipeline
+D0063,2026-04-27,Qualification,58000,2026-08-04,pipeline
+D0064,2026-04-27,Discovery,52000,2026-07-22,pipeline
+D0065,2026-04-27,Qualification,26500,2026-06-17,pipeline
+D0066,2026-04-27,Discovery,71500,2026-07-27,pipeline
+D0067,2026-04-27,Qualification,47000,2026-07-13,pipeline
+D0001,2026-05-04,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-05-04,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-05-04,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-05-04,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-05-04,Proposal,60000,2026-05-19,best_case
+D0006,2026-05-04,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-05-04,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-05-04,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-05-04,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-05-04,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-05-04,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-05-04,Negotiation,15500,2026-05-19,commit
+D0013,2026-05-04,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-05-04,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-05-04,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-05-04,Discovery,32000,2026-05-18,pipeline
+D0017,2026-05-04,Proposal,17000,2026-05-18,best_case
+D0018,2026-05-04,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-05-04,Solution Design,21500,2026-05-24,best_case
+D0020,2026-05-04,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-05-04,Discovery,126500,2026-05-18,pipeline
+D0022,2026-05-04,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-05-04,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-05-04,Proposal,38000,2026-05-26,pipeline
+D0025,2026-05-04,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-05-04,Proposal,48000,2026-06-05,pipeline
+D0027,2026-05-04,Negotiation,14500,2026-07-07,commit
+D0028,2026-05-04,Solution Design,23000,2026-05-14,best_case
+D0029,2026-05-04,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-05-04,Proposal,12500,2026-05-05,best_case
+D0031,2026-05-04,Discovery,33000,2026-06-01,pipeline
+D0032,2026-05-04,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-05-04,Negotiation,21000,2026-05-10,commit
+D0034,2026-05-04,Solution Design,60000,2026-06-07,best_case
+D0035,2026-05-04,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-05-04,Solution Design,82500,2026-06-17,best_case
+D0037,2026-05-04,Discovery,98500,2026-06-09,pipeline
+D0038,2026-05-04,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-05-04,Solution Design,7500,2026-07-01,best_case
+D0040,2026-05-04,Solution Design,9000,2026-05-27,best_case
+D0041,2026-05-04,Proposal,75500,2026-07-05,best_case
+D0042,2026-05-04,Proposal,45500,2026-06-11,best_case
+D0043,2026-05-04,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-05-04,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-05-04,Solution Design,59000,2026-05-20,best_case
+D0046,2026-05-04,Solution Design,61000,2026-05-24,best_case
+D0047,2026-05-04,Discovery,41000,2026-07-27,pipeline
+D0048,2026-05-04,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-05-04,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-05-04,Solution Design,76500,2026-05-29,best_case
+D0051,2026-05-04,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-05-04,Solution Design,38000,2026-06-08,best_case
+D0053,2026-05-04,Proposal,22500,2026-06-02,best_case
+D0054,2026-05-04,Solution Design,33000,2026-06-08,best_case
+D0055,2026-05-04,Discovery,43000,2026-07-12,pipeline
+D0056,2026-05-04,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-05-04,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-05-04,Qualification,127500,2026-05-25,pipeline
+D0059,2026-05-04,Qualification,126000,2026-07-19,pipeline
+D0060,2026-05-04,Qualification,64000,2026-07-26,pipeline
+D0061,2026-05-04,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-05-04,Discovery,30500,2026-07-09,pipeline
+D0063,2026-05-04,Qualification,58000,2026-08-04,pipeline
+D0064,2026-05-04,Discovery,52000,2026-07-22,pipeline
+D0065,2026-05-04,Qualification,26500,2026-06-17,pipeline
+D0066,2026-05-04,Discovery,71500,2026-07-27,pipeline
+D0067,2026-05-04,Discovery,47000,2026-07-13,pipeline
+D0068,2026-05-04,Discovery,84000,2026-08-17,pipeline
+D0069,2026-05-04,Qualification,119000,2026-08-07,pipeline
+D0070,2026-05-04,Qualification,71000,2026-06-23,pipeline
+D0071,2026-05-04,Discovery,8000,2026-07-29,pipeline
+D0072,2026-05-04,Qualification,13000,2026-07-21,pipeline
+D0073,2026-05-04,Qualification,22500,2026-07-07,pipeline
+D0074,2026-05-04,Qualification,55000,2026-07-14,pipeline
+D0001,2026-05-11,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-05-11,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-05-11,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-05-11,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-05-11,Negotiation,60000,2026-05-19,commit
+D0006,2026-05-11,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-05-11,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-05-11,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-05-11,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-05-11,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-05-11,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-05-11,Negotiation,15500,2026-05-19,commit
+D0013,2026-05-11,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-05-11,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-05-11,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-05-11,Discovery,32000,2026-05-18,pipeline
+D0017,2026-05-11,Proposal,17000,2026-05-18,best_case
+D0018,2026-05-11,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-05-11,Proposal,21500,2026-05-24,commit
+D0020,2026-05-11,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-05-11,Discovery,126500,2026-05-18,pipeline
+D0022,2026-05-11,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-05-11,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-05-11,Negotiation,38000,2026-06-30,commit
+D0025,2026-05-11,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-05-11,Proposal,48000,2026-06-05,pipeline
+D0027,2026-05-11,Negotiation,14500,2026-07-07,commit
+D0028,2026-05-11,Proposal,19500,2026-05-14,best_case
+D0029,2026-05-11,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-05-11,Proposal,12500,2026-05-27,best_case
+D0031,2026-05-11,Discovery,33000,2026-06-01,pipeline
+D0032,2026-05-11,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-05-11,Negotiation,21000,2026-06-25,commit
+D0034,2026-05-11,Solution Design,60000,2026-06-26,best_case
+D0035,2026-05-11,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-05-11,Solution Design,82500,2026-06-17,best_case
+D0037,2026-05-11,Discovery,98500,2026-06-09,pipeline
+D0038,2026-05-11,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-05-11,Solution Design,7500,2026-07-01,best_case
+D0040,2026-05-11,Proposal,9000,2026-05-27,best_case
+D0041,2026-05-11,Proposal,75500,2026-07-05,best_case
+D0042,2026-05-11,Negotiation,32000,2026-06-11,commit
+D0043,2026-05-11,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-05-11,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-05-11,Solution Design,59000,2026-05-20,best_case
+D0046,2026-05-11,Solution Design,61000,2026-05-24,best_case
+D0047,2026-05-11,Discovery,41000,2026-07-27,pipeline
+D0048,2026-05-11,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-05-11,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-05-11,Solution Design,76500,2026-05-29,best_case
+D0051,2026-05-11,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-05-11,Solution Design,38000,2026-06-08,best_case
+D0053,2026-05-11,Negotiation,25000,2026-06-02,commit
+D0054,2026-05-11,Solution Design,33000,2026-06-08,best_case
+D0055,2026-05-11,Discovery,36500,2026-07-12,pipeline
+D0056,2026-05-11,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-05-11,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-05-11,Qualification,127500,2026-05-25,pipeline
+D0059,2026-05-11,Discovery,126000,2026-07-19,pipeline
+D0060,2026-05-11,Discovery,64000,2026-07-26,pipeline
+D0061,2026-05-11,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-05-11,Discovery,30500,2026-07-09,pipeline
+D0063,2026-05-11,Qualification,58000,2026-07-24,pipeline
+D0064,2026-05-11,Discovery,52000,2026-07-22,pipeline
+D0065,2026-05-11,Qualification,26500,2026-06-17,pipeline
+D0066,2026-05-11,Discovery,71500,2026-07-27,pipeline
+D0067,2026-05-11,Discovery,47000,2026-07-13,pipeline
+D0068,2026-05-11,Discovery,84000,2026-08-17,pipeline
+D0069,2026-05-11,Qualification,119000,2026-08-07,pipeline
+D0070,2026-05-11,Qualification,71000,2026-06-23,pipeline
+D0071,2026-05-11,Discovery,8000,2026-07-29,pipeline
+D0072,2026-05-11,Discovery,13000,2026-07-21,pipeline
+D0073,2026-05-11,Qualification,22500,2026-07-07,pipeline
+D0074,2026-05-11,Qualification,55000,2026-07-14,pipeline
+D0075,2026-05-11,Qualification,10500,2026-08-02,pipeline
+D0076,2026-05-11,Qualification,26500,2026-07-01,pipeline
+D0077,2026-05-11,Qualification,90000,2026-08-22,pipeline
+D0078,2026-05-11,Qualification,69000,2026-08-19,pipeline
+D0001,2026-05-18,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-05-18,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-05-18,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-05-18,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-05-18,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-05-18,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-05-18,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-05-18,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-05-18,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-05-18,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-05-18,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-05-18,Negotiation,15500,2026-05-19,commit
+D0013,2026-05-18,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-05-18,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-05-18,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-05-18,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-05-18,Proposal,17000,2026-05-18,best_case
+D0018,2026-05-18,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-05-18,Proposal,21500,2026-05-24,commit
+D0020,2026-05-18,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-05-18,Solution Design,88500,2026-05-18,best_case
+D0022,2026-05-18,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-05-18,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-05-18,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-05-18,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-05-18,Negotiation,48000,2026-06-05,commit
+D0027,2026-05-18,Negotiation,14500,2026-07-07,commit
+D0028,2026-05-18,Proposal,19500,2026-06-22,best_case
+D0029,2026-05-18,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-05-18,Proposal,12500,2026-05-27,best_case
+D0031,2026-05-18,Discovery,33000,2026-06-01,pipeline
+D0032,2026-05-18,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-05-18,Negotiation,21000,2026-06-25,commit
+D0034,2026-05-18,Proposal,60000,2026-06-26,best_case
+D0035,2026-05-18,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-05-18,Solution Design,82500,2026-06-17,best_case
+D0037,2026-05-18,Discovery,98500,2026-06-09,pipeline
+D0038,2026-05-18,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-05-18,Solution Design,7500,2026-07-01,best_case
+D0040,2026-05-18,Proposal,9000,2026-05-27,best_case
+D0041,2026-05-18,Proposal,75500,2026-07-05,best_case
+D0042,2026-05-18,Negotiation,32000,2026-06-11,commit
+D0043,2026-05-18,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-05-18,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-05-18,Proposal,59000,2026-05-20,best_case
+D0046,2026-05-18,Solution Design,61000,2026-05-24,best_case
+D0047,2026-05-18,Discovery,41000,2026-07-27,pipeline
+D0048,2026-05-18,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-05-18,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-05-18,Proposal,76500,2026-05-29,best_case
+D0051,2026-05-18,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-05-18,Solution Design,38000,2026-06-08,best_case
+D0053,2026-05-18,Negotiation,25000,2026-06-02,commit
+D0054,2026-05-18,Solution Design,33000,2026-06-08,best_case
+D0055,2026-05-18,Discovery,36500,2026-07-12,pipeline
+D0056,2026-05-18,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-05-18,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-05-18,Qualification,127500,2026-05-25,pipeline
+D0059,2026-05-18,Discovery,126000,2026-07-19,pipeline
+D0060,2026-05-18,Solution Design,64000,2026-07-26,best_case
+D0061,2026-05-18,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-05-18,Discovery,30500,2026-07-09,pipeline
+D0063,2026-05-18,Qualification,58000,2026-07-24,pipeline
+D0064,2026-05-18,Discovery,52000,2026-08-13,pipeline
+D0065,2026-05-18,Qualification,26500,2026-06-17,pipeline
+D0066,2026-05-18,Discovery,71500,2026-07-27,pipeline
+D0067,2026-05-18,Qualification,47000,2026-07-13,pipeline
+D0068,2026-05-18,Discovery,84000,2026-08-17,pipeline
+D0069,2026-05-18,Discovery,119000,2026-08-07,pipeline
+D0070,2026-05-18,Qualification,71000,2026-06-23,pipeline
+D0071,2026-05-18,Discovery,8000,2026-07-29,pipeline
+D0072,2026-05-18,Discovery,11000,2026-07-21,pipeline
+D0073,2026-05-18,Qualification,22500,2026-06-17,pipeline
+D0074,2026-05-18,Discovery,55000,2026-07-14,best_case
+D0075,2026-05-18,Qualification,10500,2026-08-02,pipeline
+D0076,2026-05-18,Qualification,26500,2026-07-01,pipeline
+D0077,2026-05-18,Qualification,90000,2026-08-22,pipeline
+D0078,2026-05-18,Qualification,69000,2026-08-05,pipeline
+D0079,2026-05-18,Qualification,27000,2026-07-14,pipeline
+D0080,2026-05-18,Qualification,17500,2026-08-16,pipeline
+D0081,2026-05-18,Qualification,6500,2026-06-25,pipeline
+D0082,2026-05-18,Qualification,40500,2026-07-10,pipeline
+D0001,2026-05-25,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-05-25,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-05-25,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-05-25,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-05-25,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-05-25,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-05-25,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-05-25,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-05-25,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-05-25,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-05-25,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-05-25,Negotiation,15500,2026-06-06,commit
+D0013,2026-05-25,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-05-25,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-05-25,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-05-25,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-05-25,Proposal,17000,2026-06-14,best_case
+D0018,2026-05-25,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-05-25,Proposal,21500,2026-06-14,commit
+D0020,2026-05-25,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-05-25,Proposal,88500,2026-06-29,best_case
+D0022,2026-05-25,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-05-25,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-05-25,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-05-25,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-05-25,Negotiation,48000,2026-06-05,commit
+D0027,2026-05-25,Closed Won,14500,2026-05-24,closed_won
+D0028,2026-05-25,Proposal,19500,2026-06-22,best_case
+D0029,2026-05-25,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-05-25,Proposal,12500,2026-05-27,best_case
+D0031,2026-05-25,Closed Lost,33000,2026-05-23,closed_lost
+D0032,2026-05-25,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-05-25,Negotiation,21000,2026-07-14,commit
+D0034,2026-05-25,Proposal,60000,2026-06-26,best_case
+D0035,2026-05-25,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-05-25,Solution Design,82500,2026-06-17,best_case
+D0037,2026-05-25,Discovery,98500,2026-06-09,pipeline
+D0038,2026-05-25,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-05-25,Solution Design,7500,2026-07-01,best_case
+D0040,2026-05-25,Proposal,9000,2026-05-27,best_case
+D0041,2026-05-25,Proposal,75500,2026-07-22,best_case
+D0042,2026-05-25,Closed Won,32000,2026-05-21,closed_won
+D0043,2026-05-25,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-05-25,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-05-25,Proposal,59000,2026-06-18,best_case
+D0046,2026-05-25,Solution Design,61000,2026-07-08,best_case
+D0047,2026-05-25,Solution Design,41000,2026-07-27,best_case
+D0048,2026-05-25,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-05-25,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-05-25,Proposal,65000,2026-05-29,best_case
+D0051,2026-05-25,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-05-25,Solution Design,38000,2026-06-08,best_case
+D0053,2026-05-25,Negotiation,25000,2026-06-02,commit
+D0054,2026-05-25,Solution Design,33000,2026-06-08,best_case
+D0055,2026-05-25,Discovery,36500,2026-07-12,pipeline
+D0056,2026-05-25,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-05-25,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-05-25,Qualification,127500,2026-05-25,pipeline
+D0059,2026-05-25,Discovery,126000,2026-07-19,pipeline
+D0060,2026-05-25,Solution Design,64000,2026-07-26,best_case
+D0061,2026-05-25,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-05-25,Discovery,30500,2026-07-09,pipeline
+D0063,2026-05-25,Qualification,58000,2026-07-24,pipeline
+D0064,2026-05-25,Qualification,52000,2026-08-13,pipeline
+D0065,2026-05-25,Qualification,26500,2026-06-17,pipeline
+D0066,2026-05-25,Discovery,71500,2026-07-27,pipeline
+D0067,2026-05-25,Qualification,47000,2026-06-27,pipeline
+D0068,2026-05-25,Discovery,84000,2026-08-17,pipeline
+D0069,2026-05-25,Solution Design,119000,2026-08-07,best_case
+D0070,2026-05-25,Discovery,71000,2026-06-23,pipeline
+D0071,2026-05-25,Discovery,8000,2026-07-29,pipeline
+D0072,2026-05-25,Discovery,11000,2026-07-21,pipeline
+D0073,2026-05-25,Qualification,22500,2026-06-17,pipeline
+D0074,2026-05-25,Discovery,55000,2026-06-21,best_case
+D0075,2026-05-25,Qualification,10500,2026-08-02,pipeline
+D0076,2026-05-25,Qualification,26500,2026-07-01,pipeline
+D0077,2026-05-25,Qualification,90000,2026-08-22,pipeline
+D0078,2026-05-25,Qualification,69000,2026-08-05,pipeline
+D0079,2026-05-25,Qualification,27000,2026-07-14,pipeline
+D0080,2026-05-25,Closed Lost,17500,2026-05-24,closed_lost
+D0081,2026-05-25,Qualification,6500,2026-06-25,pipeline
+D0082,2026-05-25,Qualification,40500,2026-07-10,pipeline
+D0083,2026-05-25,Qualification,129500,2026-08-10,pipeline
+D0084,2026-05-25,Qualification,85000,2026-09-13,pipeline
+D0085,2026-05-25,Qualification,43500,2026-09-19,pipeline
+D0086,2026-05-25,Qualification,28500,2026-08-09,pipeline
+D0087,2026-05-25,Qualification,79500,2026-07-25,pipeline
+D0001,2026-06-01,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-06-01,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-06-01,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-06-01,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-06-01,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-06-01,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-06-01,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-06-01,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-06-01,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-06-01,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-06-01,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-06-01,Closed Won,15500,2026-05-31,closed_won
+D0013,2026-06-01,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-06-01,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-06-01,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-06-01,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-06-01,Proposal,17000,2026-06-14,best_case
+D0018,2026-06-01,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-06-01,Proposal,21500,2026-06-14,commit
+D0020,2026-06-01,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-06-01,Proposal,62000,2026-06-29,best_case
+D0022,2026-06-01,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-06-01,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-06-01,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-06-01,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-06-01,Negotiation,48000,2026-06-05,commit
+D0027,2026-06-01,Closed Won,14500,2026-05-24,closed_won
+D0028,2026-06-01,Proposal,19500,2026-06-22,best_case
+D0029,2026-06-01,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-06-01,Proposal,12500,2026-06-28,best_case
+D0031,2026-06-01,Closed Lost,33000,2026-05-23,closed_lost
+D0032,2026-06-01,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-06-01,Negotiation,21000,2026-07-14,commit
+D0034,2026-06-01,Proposal,60000,2026-06-26,best_case
+D0035,2026-06-01,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-06-01,Proposal,82500,2026-06-17,best_case
+D0037,2026-06-01,Discovery,98500,2026-06-09,pipeline
+D0038,2026-06-01,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-06-01,Solution Design,8000,2026-07-01,best_case
+D0040,2026-06-01,Proposal,9000,2026-07-16,best_case
+D0041,2026-06-01,Proposal,75500,2026-07-22,best_case
+D0042,2026-06-01,Closed Won,32000,2026-05-21,closed_won
+D0043,2026-06-01,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-06-01,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-06-01,Negotiation,59000,2026-06-18,commit
+D0046,2026-06-01,Solution Design,61000,2026-07-08,best_case
+D0047,2026-06-01,Solution Design,41000,2026-07-27,best_case
+D0048,2026-06-01,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-06-01,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-06-01,Proposal,65000,2026-07-16,best_case
+D0051,2026-06-01,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-06-01,Proposal,38000,2026-06-08,best_case
+D0053,2026-06-01,Negotiation,25000,2026-06-02,commit
+D0054,2026-06-01,Solution Design,33000,2026-06-08,best_case
+D0055,2026-06-01,Discovery,36500,2026-07-12,pipeline
+D0056,2026-06-01,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-06-01,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-06-01,Discovery,127500,2026-07-12,best_case
+D0059,2026-06-01,Discovery,126000,2026-07-19,pipeline
+D0060,2026-06-01,Solution Design,64000,2026-07-26,best_case
+D0061,2026-06-01,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-06-01,Discovery,30500,2026-07-26,pipeline
+D0063,2026-06-01,Qualification,58000,2026-07-24,pipeline
+D0064,2026-06-01,Qualification,52000,2026-08-13,pipeline
+D0065,2026-06-01,Qualification,26500,2026-06-17,pipeline
+D0066,2026-06-01,Discovery,71500,2026-07-27,pipeline
+D0067,2026-06-01,Discovery,59000,2026-06-27,pipeline
+D0068,2026-06-01,Discovery,92500,2026-08-17,pipeline
+D0069,2026-06-01,Solution Design,101000,2026-08-07,best_case
+D0070,2026-06-01,Discovery,71000,2026-06-23,pipeline
+D0071,2026-06-01,Discovery,8000,2026-07-29,pipeline
+D0072,2026-06-01,Discovery,11000,2026-07-21,pipeline
+D0073,2026-06-01,Qualification,22500,2026-06-17,pipeline
+D0074,2026-06-01,Discovery,55000,2026-06-21,best_case
+D0075,2026-06-01,Qualification,10500,2026-08-02,pipeline
+D0076,2026-06-01,Qualification,26500,2026-07-01,pipeline
+D0077,2026-06-01,Qualification,90000,2026-08-22,pipeline
+D0078,2026-06-01,Qualification,69000,2026-08-05,pipeline
+D0079,2026-06-01,Qualification,27000,2026-07-14,pipeline
+D0080,2026-06-01,Closed Lost,17500,2026-05-24,closed_lost
+D0081,2026-06-01,Qualification,6500,2026-06-25,pipeline
+D0082,2026-06-01,Qualification,40500,2026-07-10,pipeline
+D0083,2026-06-01,Qualification,129500,2026-08-10,pipeline
+D0084,2026-06-01,Discovery,85000,2026-09-13,pipeline
+D0085,2026-06-01,Qualification,43500,2026-08-29,pipeline
+D0086,2026-06-01,Discovery,28500,2026-08-09,pipeline
+D0087,2026-06-01,Qualification,79500,2026-07-25,pipeline
+D0088,2026-06-01,Qualification,19000,2026-07-16,pipeline
+D0089,2026-06-01,Qualification,29000,2026-08-12,pipeline
+D0090,2026-06-01,Discovery,69000,2026-09-20,pipeline
+D0091,2026-06-01,Qualification,56000,2026-08-09,pipeline
+D0001,2026-06-08,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-06-08,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-06-08,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-06-08,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-06-08,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-06-08,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-06-08,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-06-08,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-06-08,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-06-08,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-06-08,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-06-08,Closed Won,15500,2026-05-31,closed_won
+D0013,2026-06-08,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-06-08,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-06-08,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-06-08,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-06-08,Proposal,17000,2026-06-14,best_case
+D0018,2026-06-08,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-06-08,Proposal,21500,2026-06-14,commit
+D0020,2026-06-08,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-06-08,Proposal,62000,2026-06-29,best_case
+D0022,2026-06-08,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-06-08,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-06-08,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-06-08,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-06-08,Closed Won,48000,2026-06-03,closed_won
+D0027,2026-06-08,Closed Won,14500,2026-05-24,closed_won
+D0028,2026-06-08,Proposal,19500,2026-06-22,best_case
+D0029,2026-06-08,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-06-08,Proposal,12500,2026-06-28,best_case
+D0031,2026-06-08,Closed Lost,33000,2026-05-23,closed_lost
+D0032,2026-06-08,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-06-08,Negotiation,21000,2026-07-14,commit
+D0034,2026-06-08,Proposal,60000,2026-06-26,best_case
+D0035,2026-06-08,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-06-08,Solution Design,82500,2026-06-17,best_case
+D0037,2026-06-08,Discovery,98500,2026-06-09,pipeline
+D0038,2026-06-08,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-06-08,Solution Design,8000,2026-07-01,best_case
+D0040,2026-06-08,Proposal,9000,2026-07-16,best_case
+D0041,2026-06-08,Proposal,75500,2026-07-22,best_case
+D0042,2026-06-08,Closed Won,32000,2026-05-21,closed_won
+D0043,2026-06-08,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-06-08,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-06-08,Negotiation,59000,2026-06-18,commit
+D0046,2026-06-08,Proposal,61000,2026-07-30,pipeline
+D0047,2026-06-08,Solution Design,41000,2026-07-27,best_case
+D0048,2026-06-08,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-06-08,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-06-08,Negotiation,65000,2026-07-16,commit
+D0051,2026-06-08,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-06-08,Proposal,38000,2026-06-08,best_case
+D0053,2026-06-08,Negotiation,25000,2026-07-12,commit
+D0054,2026-06-08,Solution Design,33000,2026-06-08,best_case
+D0055,2026-06-08,Discovery,36500,2026-07-12,pipeline
+D0056,2026-06-08,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-06-08,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-06-08,Solution Design,127500,2026-07-12,best_case
+D0059,2026-06-08,Closed Lost,126000,2026-06-03,closed_lost
+D0060,2026-06-08,Solution Design,64000,2026-07-26,best_case
+D0061,2026-06-08,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-06-08,Discovery,33500,2026-07-26,pipeline
+D0063,2026-06-08,Qualification,58000,2026-07-24,pipeline
+D0064,2026-06-08,Qualification,52000,2026-08-13,pipeline
+D0065,2026-06-08,Qualification,26500,2026-06-17,pipeline
+D0066,2026-06-08,Solution Design,71500,2026-07-27,best_case
+D0067,2026-06-08,Discovery,74000,2026-06-27,pipeline
+D0068,2026-06-08,Discovery,92500,2026-08-17,pipeline
+D0069,2026-06-08,Solution Design,101000,2026-08-07,best_case
+D0070,2026-06-08,Solution Design,71000,2026-06-23,best_case
+D0071,2026-06-08,Discovery,8000,2026-07-29,pipeline
+D0072,2026-06-08,Discovery,11000,2026-07-21,pipeline
+D0073,2026-06-08,Qualification,22500,2026-06-17,pipeline
+D0074,2026-06-08,Solution Design,55000,2026-06-21,best_case
+D0075,2026-06-08,Qualification,10500,2026-08-02,pipeline
+D0076,2026-06-08,Qualification,26500,2026-07-01,pipeline
+D0077,2026-06-08,Discovery,90000,2026-08-22,pipeline
+D0078,2026-06-08,Qualification,86000,2026-08-05,pipeline
+D0079,2026-06-08,Qualification,27000,2026-07-14,pipeline
+D0080,2026-06-08,Closed Lost,17500,2026-05-24,closed_lost
+D0081,2026-06-08,Closed Lost,6500,2026-06-03,closed_lost
+D0082,2026-06-08,Closed Lost,40500,2026-06-03,closed_lost
+D0083,2026-06-08,Qualification,129500,2026-08-10,pipeline
+D0084,2026-06-08,Discovery,85000,2026-10-15,pipeline
+D0085,2026-06-08,Qualification,43500,2026-08-29,pipeline
+D0086,2026-06-08,Discovery,28500,2026-08-09,pipeline
+D0087,2026-06-08,Qualification,79500,2026-07-25,pipeline
+D0088,2026-06-08,Qualification,19000,2026-07-16,pipeline
+D0089,2026-06-08,Qualification,29000,2026-08-12,pipeline
+D0090,2026-06-08,Discovery,69000,2026-09-20,pipeline
+D0091,2026-06-08,Qualification,56000,2026-08-09,pipeline
+D0092,2026-06-08,Qualification,59500,2026-09-11,pipeline
+D0093,2026-06-08,Qualification,10000,2026-09-21,pipeline
+D0094,2026-06-08,Qualification,160000,2026-09-09,pipeline
+D0001,2026-06-15,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-06-15,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-06-15,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-06-15,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-06-15,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-06-15,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-06-15,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-06-15,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-06-15,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-06-15,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-06-15,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-06-15,Closed Won,15500,2026-05-31,closed_won
+D0013,2026-06-15,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-06-15,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-06-15,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-06-15,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-06-15,Proposal,17000,2026-07-14,best_case
+D0018,2026-06-15,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-06-15,Proposal,21500,2026-07-03,commit
+D0020,2026-06-15,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-06-15,Negotiation,77500,2026-06-29,commit
+D0022,2026-06-15,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-06-15,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-06-15,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-06-15,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-06-15,Closed Won,48000,2026-06-03,closed_won
+D0027,2026-06-15,Closed Won,14500,2026-05-24,closed_won
+D0028,2026-06-15,Proposal,19500,2026-06-22,best_case
+D0029,2026-06-15,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-06-15,Proposal,12500,2026-06-28,best_case
+D0031,2026-06-15,Closed Lost,33000,2026-05-23,closed_lost
+D0032,2026-06-15,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-06-15,Negotiation,21000,2026-07-14,commit
+D0034,2026-06-15,Proposal,60000,2026-06-26,best_case
+D0035,2026-06-15,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-06-15,Solution Design,82500,2026-06-17,best_case
+D0037,2026-06-15,Discovery,98500,2026-07-24,pipeline
+D0038,2026-06-15,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-06-15,Solution Design,8000,2026-07-01,best_case
+D0040,2026-06-15,Proposal,9000,2026-07-16,best_case
+D0041,2026-06-15,Closed Lost,75500,2026-06-12,closed_lost
+D0042,2026-06-15,Closed Won,32000,2026-05-21,closed_won
+D0043,2026-06-15,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-06-15,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-06-15,Proposal,59000,2026-06-18,best_case
+D0046,2026-06-15,Proposal,61000,2026-08-28,pipeline
+D0047,2026-06-15,Proposal,41000,2026-07-27,best_case
+D0048,2026-06-15,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-06-15,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-06-15,Negotiation,65000,2026-07-16,commit
+D0051,2026-06-15,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-06-15,Negotiation,42000,2026-07-20,commit
+D0053,2026-06-15,Negotiation,25000,2026-07-12,commit
+D0054,2026-06-15,Proposal,28000,2026-07-22,best_case
+D0055,2026-06-15,Discovery,36500,2026-07-12,pipeline
+D0056,2026-06-15,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-06-15,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-06-15,Solution Design,127500,2026-07-12,best_case
+D0059,2026-06-15,Closed Lost,126000,2026-06-03,closed_lost
+D0060,2026-06-15,Proposal,64000,2026-07-26,commit
+D0061,2026-06-15,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-06-15,Discovery,33500,2026-07-26,pipeline
+D0063,2026-06-15,Qualification,40500,2026-07-24,pipeline
+D0064,2026-06-15,Qualification,52000,2026-08-13,pipeline
+D0065,2026-06-15,Closed Lost,26500,2026-06-13,closed_lost
+D0066,2026-06-15,Solution Design,71500,2026-07-13,best_case
+D0067,2026-06-15,Discovery,74000,2026-06-27,pipeline
+D0068,2026-06-15,Discovery,92500,2026-08-17,pipeline
+D0069,2026-06-15,Solution Design,101000,2026-08-07,best_case
+D0070,2026-06-15,Solution Design,71000,2026-06-23,best_case
+D0071,2026-06-15,Discovery,8000,2026-07-29,pipeline
+D0072,2026-06-15,Discovery,11000,2026-07-21,pipeline
+D0073,2026-06-15,Qualification,25000,2026-06-17,pipeline
+D0074,2026-06-15,Discovery,55000,2026-06-21,pipeline
+D0075,2026-06-15,Qualification,10500,2026-08-02,pipeline
+D0076,2026-06-15,Closed Lost,26500,2026-06-13,closed_lost
+D0077,2026-06-15,Discovery,90000,2026-08-22,pipeline
+D0078,2026-06-15,Qualification,86000,2026-08-05,pipeline
+D0079,2026-06-15,Discovery,34000,2026-07-14,pipeline
+D0080,2026-06-15,Closed Lost,17500,2026-05-24,closed_lost
+D0081,2026-06-15,Closed Lost,6500,2026-06-03,closed_lost
+D0082,2026-06-15,Closed Lost,40500,2026-06-03,closed_lost
+D0083,2026-06-15,Discovery,129500,2026-08-10,pipeline
+D0084,2026-06-15,Discovery,85000,2026-10-15,pipeline
+D0085,2026-06-15,Qualification,43500,2026-08-29,pipeline
+D0086,2026-06-15,Discovery,35500,2026-08-09,pipeline
+D0087,2026-06-15,Qualification,79500,2026-07-25,pipeline
+D0088,2026-06-15,Qualification,19000,2026-07-16,pipeline
+D0089,2026-06-15,Qualification,29000,2026-08-12,pipeline
+D0090,2026-06-15,Discovery,69000,2026-09-20,pipeline
+D0091,2026-06-15,Discovery,56000,2026-08-09,pipeline
+D0092,2026-06-15,Qualification,65500,2026-09-11,pipeline
+D0093,2026-06-15,Qualification,12500,2026-09-21,pipeline
+D0094,2026-06-15,Qualification,160000,2026-09-09,pipeline
+D0095,2026-06-15,Discovery,48500,2026-09-24,pipeline
+D0096,2026-06-15,Qualification,52000,2026-10-05,pipeline
+D0097,2026-06-15,Qualification,14500,2026-08-18,pipeline
+D0001,2026-06-22,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-06-22,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-06-22,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-06-22,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-06-22,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-06-22,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-06-22,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-06-22,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-06-22,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-06-22,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-06-22,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-06-22,Closed Won,15500,2026-05-31,closed_won
+D0013,2026-06-22,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-06-22,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-06-22,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-06-22,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-06-22,Proposal,17000,2026-07-14,best_case
+D0018,2026-06-22,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-06-22,Closed Lost,21500,2026-06-21,closed_lost
+D0020,2026-06-22,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-06-22,Closed Won,77500,2026-06-17,closed_won
+D0022,2026-06-22,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-06-22,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-06-22,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-06-22,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-06-22,Closed Won,48000,2026-06-03,closed_won
+D0027,2026-06-22,Closed Won,14500,2026-05-24,closed_won
+D0028,2026-06-22,Proposal,19500,2026-07-21,best_case
+D0029,2026-06-22,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-06-22,Negotiation,12500,2026-06-28,commit
+D0031,2026-06-22,Closed Lost,33000,2026-05-23,closed_lost
+D0032,2026-06-22,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-06-22,Closed Won,21000,2026-06-19,closed_won
+D0034,2026-06-22,Proposal,60000,2026-06-26,best_case
+D0035,2026-06-22,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-06-22,Solution Design,82500,2026-07-06,best_case
+D0037,2026-06-22,Discovery,123000,2026-07-24,pipeline
+D0038,2026-06-22,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-06-22,Solution Design,8000,2026-07-01,best_case
+D0040,2026-06-22,Negotiation,9000,2026-07-16,commit
+D0041,2026-06-22,Closed Lost,75500,2026-06-12,closed_lost
+D0042,2026-06-22,Closed Won,32000,2026-05-21,closed_won
+D0043,2026-06-22,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-06-22,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-06-22,Proposal,59000,2026-07-20,best_case
+D0046,2026-06-22,Proposal,61000,2026-09-23,pipeline
+D0047,2026-06-22,Proposal,41000,2026-07-27,best_case
+D0048,2026-06-22,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-06-22,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-06-22,Negotiation,65000,2026-07-16,commit
+D0051,2026-06-22,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-06-22,Negotiation,42000,2026-08-03,commit
+D0053,2026-06-22,Negotiation,25000,2026-07-12,commit
+D0054,2026-06-22,Negotiation,28000,2026-07-22,commit
+D0055,2026-06-22,Discovery,36500,2026-07-27,pipeline
+D0056,2026-06-22,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-06-22,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-06-22,Solution Design,127500,2026-07-12,best_case
+D0059,2026-06-22,Closed Lost,126000,2026-06-03,closed_lost
+D0060,2026-06-22,Closed Lost,64000,2026-06-17,closed_lost
+D0061,2026-06-22,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-06-22,Discovery,33500,2026-07-26,pipeline
+D0063,2026-06-22,Qualification,40500,2026-08-11,pipeline
+D0064,2026-06-22,Qualification,36500,2026-08-13,pipeline
+D0065,2026-06-22,Closed Lost,26500,2026-06-13,closed_lost
+D0066,2026-06-22,Proposal,71500,2026-07-13,best_case
+D0067,2026-06-22,Solution Design,74000,2026-06-27,best_case
+D0068,2026-06-22,Discovery,92500,2026-08-17,pipeline
+D0069,2026-06-22,Proposal,101000,2026-08-07,best_case
+D0070,2026-06-22,Solution Design,71000,2026-06-23,best_case
+D0071,2026-06-22,Discovery,8000,2026-07-29,pipeline
+D0072,2026-06-22,Solution Design,12000,2026-07-21,best_case
+D0073,2026-06-22,Qualification,25000,2026-07-04,pipeline
+D0074,2026-06-22,Solution Design,55000,2026-07-12,best_case
+D0075,2026-06-22,Discovery,9000,2026-08-02,pipeline
+D0076,2026-06-22,Closed Lost,26500,2026-06-13,closed_lost
+D0077,2026-06-22,Discovery,90000,2026-08-22,pipeline
+D0078,2026-06-22,Qualification,86000,2026-08-05,pipeline
+D0079,2026-06-22,Discovery,34000,2026-07-14,pipeline
+D0080,2026-06-22,Closed Lost,17500,2026-05-24,closed_lost
+D0081,2026-06-22,Closed Lost,6500,2026-06-03,closed_lost
+D0082,2026-06-22,Closed Lost,40500,2026-06-03,closed_lost
+D0083,2026-06-22,Discovery,129500,2026-08-10,pipeline
+D0084,2026-06-22,Solution Design,85000,2026-10-15,best_case
+D0085,2026-06-22,Discovery,43500,2026-08-29,best_case
+D0086,2026-06-22,Discovery,35500,2026-08-09,pipeline
+D0087,2026-06-22,Discovery,79500,2026-07-25,pipeline
+D0088,2026-06-22,Qualification,19000,2026-07-16,pipeline
+D0089,2026-06-22,Qualification,32000,2026-08-12,pipeline
+D0090,2026-06-22,Discovery,69000,2026-09-20,pipeline
+D0091,2026-06-22,Discovery,56000,2026-08-09,pipeline
+D0092,2026-06-22,Qualification,65500,2026-09-11,pipeline
+D0093,2026-06-22,Qualification,12500,2026-09-21,pipeline
+D0094,2026-06-22,Qualification,160000,2026-09-09,pipeline
+D0095,2026-06-22,Discovery,48500,2026-09-24,pipeline
+D0096,2026-06-22,Qualification,52000,2026-10-05,pipeline
+D0097,2026-06-22,Qualification,14500,2026-08-18,pipeline
+D0098,2026-06-22,Discovery,32000,2026-07-28,pipeline
+D0099,2026-06-22,Qualification,37500,2026-08-14,pipeline
+D0100,2026-06-22,Qualification,20500,2026-10-03,pipeline
+D0101,2026-06-22,Discovery,76000,2026-08-19,pipeline
+D0102,2026-06-22,Qualification,161000,2026-08-24,pipeline
+D0103,2026-06-22,Discovery,78000,2026-09-13,pipeline
+D0001,2026-06-29,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-06-29,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-06-29,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-06-29,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-06-29,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-06-29,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-06-29,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-06-29,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-06-29,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-06-29,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-06-29,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-06-29,Closed Won,15500,2026-05-31,closed_won
+D0013,2026-06-29,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-06-29,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-06-29,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-06-29,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-06-29,Proposal,17000,2026-07-14,best_case
+D0018,2026-06-29,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-06-29,Closed Lost,21500,2026-06-21,closed_lost
+D0020,2026-06-29,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-06-29,Closed Won,77500,2026-06-17,closed_won
+D0022,2026-06-29,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-06-29,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-06-29,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-06-29,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-06-29,Closed Won,48000,2026-06-03,closed_won
+D0027,2026-06-29,Closed Won,14500,2026-05-24,closed_won
+D0028,2026-06-29,Proposal,19500,2026-07-21,best_case
+D0029,2026-06-29,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-06-29,Negotiation,12500,2026-07-19,commit
+D0031,2026-06-29,Closed Lost,33000,2026-05-23,closed_lost
+D0032,2026-06-29,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-06-29,Closed Won,21000,2026-06-19,closed_won
+D0034,2026-06-29,Closed Lost,60000,2026-06-28,closed_lost
+D0035,2026-06-29,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-06-29,Solution Design,82500,2026-07-06,best_case
+D0037,2026-06-29,Discovery,123000,2026-07-24,pipeline
+D0038,2026-06-29,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-06-29,Solution Design,8000,2026-07-01,best_case
+D0040,2026-06-29,Negotiation,9000,2026-07-16,commit
+D0041,2026-06-29,Closed Lost,75500,2026-06-12,closed_lost
+D0042,2026-06-29,Closed Won,32000,2026-05-21,closed_won
+D0043,2026-06-29,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-06-29,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-06-29,Negotiation,59000,2026-07-20,best_case
+D0046,2026-06-29,Proposal,61000,2026-09-23,pipeline
+D0047,2026-06-29,Proposal,41000,2026-07-27,best_case
+D0048,2026-06-29,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-06-29,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-06-29,Closed Won,65000,2026-06-26,closed_won
+D0051,2026-06-29,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-06-29,Negotiation,42000,2026-08-03,commit
+D0053,2026-06-29,Negotiation,25000,2026-07-12,commit
+D0054,2026-06-29,Closed Lost,28000,2026-06-28,closed_lost
+D0055,2026-06-29,Discovery,36500,2026-07-27,pipeline
+D0056,2026-06-29,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-06-29,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-06-29,Solution Design,127500,2026-07-12,best_case
+D0059,2026-06-29,Closed Lost,126000,2026-06-03,closed_lost
+D0060,2026-06-29,Closed Lost,64000,2026-06-17,closed_lost
+D0061,2026-06-29,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-06-29,Discovery,33500,2026-07-26,pipeline
+D0063,2026-06-29,Discovery,40500,2026-08-11,pipeline
+D0064,2026-06-29,Closed Lost,36500,2026-06-28,closed_lost
+D0065,2026-06-29,Closed Lost,26500,2026-06-13,closed_lost
+D0066,2026-06-29,Negotiation,71500,2026-07-13,commit
+D0067,2026-06-29,Solution Design,74000,2026-08-10,best_case
+D0068,2026-06-29,Discovery,92500,2026-08-17,pipeline
+D0069,2026-06-29,Proposal,101000,2026-08-07,best_case
+D0070,2026-06-29,Solution Design,71000,2026-06-23,best_case
+D0071,2026-06-29,Discovery,8000,2026-07-29,pipeline
+D0072,2026-06-29,Solution Design,12000,2026-07-21,best_case
+D0073,2026-06-29,Qualification,25000,2026-07-04,pipeline
+D0074,2026-06-29,Solution Design,55000,2026-07-12,best_case
+D0075,2026-06-29,Discovery,9000,2026-08-02,pipeline
+D0076,2026-06-29,Closed Lost,26500,2026-06-13,closed_lost
+D0077,2026-06-29,Discovery,90000,2026-08-22,pipeline
+D0078,2026-06-29,Qualification,86000,2026-08-05,pipeline
+D0079,2026-06-29,Discovery,34000,2026-07-14,pipeline
+D0080,2026-06-29,Closed Lost,17500,2026-05-24,closed_lost
+D0081,2026-06-29,Closed Lost,6500,2026-06-03,closed_lost
+D0082,2026-06-29,Closed Lost,40500,2026-06-03,closed_lost
+D0083,2026-06-29,Discovery,129500,2026-08-10,pipeline
+D0084,2026-06-29,Solution Design,85000,2026-10-15,best_case
+D0085,2026-06-29,Solution Design,43500,2026-08-29,pipeline
+D0086,2026-06-29,Discovery,35500,2026-08-09,pipeline
+D0087,2026-06-29,Discovery,79500,2026-07-25,pipeline
+D0088,2026-06-29,Discovery,19000,2026-07-16,pipeline
+D0089,2026-06-29,Qualification,32000,2026-08-12,pipeline
+D0090,2026-06-29,Discovery,69000,2026-09-20,pipeline
+D0091,2026-06-29,Discovery,56000,2026-08-09,pipeline
+D0092,2026-06-29,Discovery,65500,2026-09-11,pipeline
+D0093,2026-06-29,Closed Lost,12500,2026-06-25,closed_lost
+D0094,2026-06-29,Qualification,160000,2026-09-09,pipeline
+D0095,2026-06-29,Discovery,41000,2026-09-24,pipeline
+D0096,2026-06-29,Discovery,52000,2026-10-05,pipeline
+D0097,2026-06-29,Qualification,14500,2026-08-18,pipeline
+D0098,2026-06-29,Solution Design,32000,2026-08-27,best_case
+D0099,2026-06-29,Qualification,37500,2026-08-14,pipeline
+D0100,2026-06-29,Discovery,20500,2026-10-03,pipeline
+D0101,2026-06-29,Discovery,76000,2026-08-19,pipeline
+D0102,2026-06-29,Qualification,161000,2026-08-24,pipeline
+D0103,2026-06-29,Discovery,78000,2026-08-23,pipeline
+D0104,2026-06-29,Discovery,40000,2026-09-13,pipeline
+D0105,2026-06-29,Discovery,65500,2026-09-09,pipeline
+D0106,2026-06-29,Qualification,30000,2026-09-29,pipeline
+D0001,2026-07-06,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-07-06,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-07-06,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-07-06,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-07-06,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-07-06,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-07-06,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-07-06,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-07-06,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-07-06,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-07-06,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-07-06,Closed Won,15500,2026-05-31,closed_won
+D0013,2026-07-06,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-07-06,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-07-06,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-07-06,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-07-06,Proposal,17000,2026-07-14,best_case
+D0018,2026-07-06,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-07-06,Closed Lost,21500,2026-06-21,closed_lost
+D0020,2026-07-06,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-07-06,Closed Won,77500,2026-06-17,closed_won
+D0022,2026-07-06,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-07-06,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-07-06,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-07-06,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-07-06,Closed Won,48000,2026-06-03,closed_won
+D0027,2026-07-06,Closed Won,14500,2026-05-24,closed_won
+D0028,2026-07-06,Proposal,19500,2026-07-21,best_case
+D0029,2026-07-06,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-07-06,Negotiation,12500,2026-07-19,commit
+D0031,2026-07-06,Closed Lost,33000,2026-05-23,closed_lost
+D0032,2026-07-06,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-07-06,Closed Won,21000,2026-06-19,closed_won
+D0034,2026-07-06,Closed Lost,60000,2026-06-28,closed_lost
+D0035,2026-07-06,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-07-06,Solution Design,82500,2026-07-06,best_case
+D0037,2026-07-06,Discovery,123000,2026-07-24,pipeline
+D0038,2026-07-06,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-07-06,Solution Design,5500,2026-08-08,best_case
+D0040,2026-07-06,Closed Lost,9000,2026-07-01,closed_lost
+D0041,2026-07-06,Closed Lost,75500,2026-06-12,closed_lost
+D0042,2026-07-06,Closed Won,32000,2026-05-21,closed_won
+D0043,2026-07-06,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-07-06,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-07-06,Closed Won,59000,2026-07-03,closed_won
+D0046,2026-07-06,Proposal,61000,2026-09-23,pipeline
+D0047,2026-07-06,Negotiation,41000,2026-07-27,commit
+D0048,2026-07-06,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-07-06,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-07-06,Closed Won,65000,2026-06-26,closed_won
+D0051,2026-07-06,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-07-06,Closed Won,42000,2026-07-05,closed_won
+D0053,2026-07-06,Negotiation,25000,2026-07-12,commit
+D0054,2026-07-06,Closed Lost,28000,2026-06-28,closed_lost
+D0055,2026-07-06,Discovery,45500,2026-07-27,pipeline
+D0056,2026-07-06,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-07-06,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-07-06,Solution Design,127500,2026-07-12,best_case
+D0059,2026-07-06,Closed Lost,126000,2026-06-03,closed_lost
+D0060,2026-07-06,Closed Lost,64000,2026-06-17,closed_lost
+D0061,2026-07-06,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-07-06,Discovery,33500,2026-07-26,pipeline
+D0063,2026-07-06,Discovery,40500,2026-08-11,pipeline
+D0064,2026-07-06,Closed Lost,36500,2026-06-28,closed_lost
+D0065,2026-07-06,Closed Lost,26500,2026-06-13,closed_lost
+D0066,2026-07-06,Negotiation,71500,2026-07-13,commit
+D0067,2026-07-06,Solution Design,74000,2026-08-10,best_case
+D0068,2026-07-06,Discovery,92500,2026-08-17,pipeline
+D0069,2026-07-06,Proposal,101000,2026-08-07,best_case
+D0070,2026-07-06,Solution Design,71000,2026-07-21,best_case
+D0071,2026-07-06,Discovery,8000,2026-07-29,pipeline
+D0072,2026-07-06,Discovery,12000,2026-07-21,pipeline
+D0073,2026-07-06,Qualification,27500,2026-08-04,pipeline
+D0074,2026-07-06,Solution Design,55000,2026-07-12,best_case
+D0075,2026-07-06,Discovery,9000,2026-08-02,pipeline
+D0076,2026-07-06,Closed Lost,26500,2026-06-13,closed_lost
+D0077,2026-07-06,Discovery,90000,2026-09-27,pipeline
+D0078,2026-07-06,Qualification,86000,2026-08-05,pipeline
+D0079,2026-07-06,Discovery,34000,2026-07-14,pipeline
+D0080,2026-07-06,Closed Lost,17500,2026-05-24,closed_lost
+D0081,2026-07-06,Closed Lost,6500,2026-06-03,closed_lost
+D0082,2026-07-06,Closed Lost,40500,2026-06-03,closed_lost
+D0083,2026-07-06,Discovery,129500,2026-08-10,pipeline
+D0084,2026-07-06,Solution Design,85000,2026-10-15,best_case
+D0085,2026-07-06,Solution Design,43500,2026-08-29,pipeline
+D0086,2026-07-06,Discovery,35500,2026-08-09,pipeline
+D0087,2026-07-06,Discovery,79500,2026-07-25,pipeline
+D0088,2026-07-06,Qualification,19000,2026-07-16,pipeline
+D0089,2026-07-06,Closed Lost,32000,2026-07-04,closed_lost
+D0090,2026-07-06,Solution Design,69000,2026-09-20,best_case
+D0091,2026-07-06,Discovery,56000,2026-08-28,pipeline
+D0092,2026-07-06,Closed Lost,65500,2026-07-05,closed_lost
+D0093,2026-07-06,Closed Lost,12500,2026-06-25,closed_lost
+D0094,2026-07-06,Closed Lost,160000,2026-07-03,closed_lost
+D0095,2026-07-06,Discovery,41000,2026-09-24,pipeline
+D0096,2026-07-06,Discovery,36500,2026-10-05,pipeline
+D0097,2026-07-06,Discovery,14500,2026-08-18,best_case
+D0098,2026-07-06,Solution Design,32000,2026-08-27,best_case
+D0099,2026-07-06,Qualification,37500,2026-08-14,pipeline
+D0100,2026-07-06,Discovery,20500,2026-10-03,pipeline
+D0101,2026-07-06,Solution Design,76000,2026-08-19,best_case
+D0102,2026-07-06,Qualification,161000,2026-08-24,pipeline
+D0103,2026-07-06,Closed Lost,78000,2026-07-05,closed_lost
+D0104,2026-07-06,Solution Design,40000,2026-09-13,commit
+D0105,2026-07-06,Discovery,65500,2026-09-09,pipeline
+D0106,2026-07-06,Qualification,30000,2026-09-29,pipeline
+D0107,2026-07-06,Qualification,19000,2026-10-22,pipeline
+D0108,2026-07-06,Qualification,10000,2026-09-27,pipeline
+D0109,2026-07-06,Qualification,54000,2026-09-22,pipeline
+D0110,2026-07-06,Qualification,11000,2026-08-27,pipeline
+D0111,2026-07-06,Discovery,76000,2026-10-07,pipeline
+D0112,2026-07-06,Qualification,172500,2026-09-06,pipeline
+D0001,2026-07-13,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-07-13,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-07-13,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-07-13,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-07-13,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-07-13,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-07-13,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-07-13,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-07-13,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-07-13,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-07-13,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-07-13,Closed Won,15500,2026-05-31,closed_won
+D0013,2026-07-13,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-07-13,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-07-13,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-07-13,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-07-13,Negotiation,17000,2026-07-14,commit
+D0018,2026-07-13,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-07-13,Closed Lost,21500,2026-06-21,closed_lost
+D0020,2026-07-13,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-07-13,Closed Won,77500,2026-06-17,closed_won
+D0022,2026-07-13,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-07-13,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-07-13,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-07-13,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-07-13,Closed Won,48000,2026-06-03,closed_won
+D0027,2026-07-13,Closed Won,14500,2026-05-24,closed_won
+D0028,2026-07-13,Proposal,19500,2026-07-21,best_case
+D0029,2026-07-13,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-07-13,Negotiation,12500,2026-07-19,commit
+D0031,2026-07-13,Closed Lost,33000,2026-05-23,closed_lost
+D0032,2026-07-13,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-07-13,Closed Won,21000,2026-06-19,closed_won
+D0034,2026-07-13,Closed Lost,60000,2026-06-28,closed_lost
+D0035,2026-07-13,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-07-13,Solution Design,82500,2026-08-08,best_case
+D0037,2026-07-13,Discovery,123000,2026-07-24,pipeline
+D0038,2026-07-13,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-07-13,Solution Design,5500,2026-08-08,best_case
+D0040,2026-07-13,Closed Lost,9000,2026-07-01,closed_lost
+D0041,2026-07-13,Closed Lost,75500,2026-06-12,closed_lost
+D0042,2026-07-13,Closed Won,32000,2026-05-21,closed_won
+D0043,2026-07-13,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-07-13,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-07-13,Closed Won,59000,2026-07-03,closed_won
+D0046,2026-07-13,Proposal,61000,2026-09-23,pipeline
+D0047,2026-07-13,Closed Won,41000,2026-07-12,closed_won
+D0048,2026-07-13,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-07-13,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-07-13,Closed Won,65000,2026-06-26,closed_won
+D0051,2026-07-13,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-07-13,Closed Won,42000,2026-07-05,closed_won
+D0053,2026-07-13,Closed Won,25000,2026-07-12,closed_won
+D0054,2026-07-13,Closed Lost,28000,2026-06-28,closed_lost
+D0055,2026-07-13,Discovery,45500,2026-07-27,pipeline
+D0056,2026-07-13,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-07-13,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-07-13,Proposal,127500,2026-08-27,best_case
+D0059,2026-07-13,Closed Lost,126000,2026-06-03,closed_lost
+D0060,2026-07-13,Closed Lost,64000,2026-06-17,closed_lost
+D0061,2026-07-13,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-07-13,Discovery,33500,2026-07-26,pipeline
+D0063,2026-07-13,Discovery,40500,2026-08-11,pipeline
+D0064,2026-07-13,Closed Lost,36500,2026-06-28,closed_lost
+D0065,2026-07-13,Closed Lost,26500,2026-06-13,closed_lost
+D0066,2026-07-13,Closed Won,71500,2026-07-11,closed_won
+D0067,2026-07-13,Solution Design,74000,2026-08-10,best_case
+D0068,2026-07-13,Discovery,92500,2026-08-02,pipeline
+D0069,2026-07-13,Proposal,126000,2026-08-07,best_case
+D0070,2026-07-13,Solution Design,49500,2026-07-21,best_case
+D0071,2026-07-13,Discovery,8000,2026-07-29,pipeline
+D0072,2026-07-13,Solution Design,12000,2026-07-21,pipeline
+D0073,2026-07-13,Qualification,27500,2026-08-04,pipeline
+D0074,2026-07-13,Proposal,55000,2026-07-12,commit
+D0075,2026-07-13,Discovery,9000,2026-08-02,pipeline
+D0076,2026-07-13,Closed Lost,26500,2026-06-13,closed_lost
+D0077,2026-07-13,Discovery,90000,2026-09-27,pipeline
+D0078,2026-07-13,Qualification,60000,2026-08-05,pipeline
+D0079,2026-07-13,Discovery,34000,2026-07-14,pipeline
+D0080,2026-07-13,Closed Lost,17500,2026-05-24,closed_lost
+D0081,2026-07-13,Closed Lost,6500,2026-06-03,closed_lost
+D0082,2026-07-13,Closed Lost,40500,2026-06-03,closed_lost
+D0083,2026-07-13,Closed Lost,129500,2026-07-09,closed_lost
+D0084,2026-07-13,Proposal,85000,2026-10-15,best_case
+D0085,2026-07-13,Solution Design,43500,2026-08-29,pipeline
+D0086,2026-07-13,Discovery,35500,2026-08-09,pipeline
+D0087,2026-07-13,Discovery,79500,2026-07-25,pipeline
+D0088,2026-07-13,Qualification,19000,2026-07-16,pipeline
+D0089,2026-07-13,Closed Lost,32000,2026-07-04,closed_lost
+D0090,2026-07-13,Solution Design,69000,2026-09-20,best_case
+D0091,2026-07-13,Discovery,56000,2026-08-28,pipeline
+D0092,2026-07-13,Closed Lost,65500,2026-07-05,closed_lost
+D0093,2026-07-13,Closed Lost,12500,2026-06-25,closed_lost
+D0094,2026-07-13,Closed Lost,160000,2026-07-03,closed_lost
+D0095,2026-07-13,Discovery,45000,2026-09-24,pipeline
+D0096,2026-07-13,Discovery,36500,2026-10-05,pipeline
+D0097,2026-07-13,Discovery,14500,2026-08-18,best_case
+D0098,2026-07-13,Solution Design,32000,2026-08-27,best_case
+D0099,2026-07-13,Qualification,37500,2026-08-14,pipeline
+D0100,2026-07-13,Discovery,20500,2026-10-03,pipeline
+D0101,2026-07-13,Solution Design,76000,2026-08-19,best_case
+D0102,2026-07-13,Qualification,161000,2026-07-31,pipeline
+D0103,2026-07-13,Closed Lost,78000,2026-07-05,closed_lost
+D0104,2026-07-13,Proposal,40000,2026-09-13,best_case
+D0105,2026-07-13,Qualification,65500,2026-09-09,pipeline
+D0106,2026-07-13,Closed Lost,30000,2026-07-11,closed_lost
+D0107,2026-07-13,Closed Lost,19000,2026-07-12,closed_lost
+D0108,2026-07-13,Qualification,10000,2026-09-27,pipeline
+D0109,2026-07-13,Qualification,38000,2026-10-26,pipeline
+D0110,2026-07-13,Qualification,11000,2026-08-27,pipeline
+D0111,2026-07-13,Discovery,76000,2026-10-07,pipeline
+D0112,2026-07-13,Qualification,172500,2026-09-06,pipeline
+D0113,2026-07-13,Qualification,122500,2026-09-08,pipeline
+D0114,2026-07-13,Qualification,53500,2026-10-22,pipeline
+D0115,2026-07-13,Qualification,78500,2026-09-03,pipeline
+D0116,2026-07-13,Qualification,21500,2026-09-07,pipeline
+D0001,2026-07-20,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-07-20,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-07-20,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-07-20,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-07-20,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-07-20,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-07-20,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-07-20,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-07-20,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-07-20,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-07-20,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-07-20,Closed Won,15500,2026-05-31,closed_won
+D0013,2026-07-20,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-07-20,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-07-20,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-07-20,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-07-20,Closed Won,17000,2026-07-19,closed_won
+D0018,2026-07-20,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-07-20,Closed Lost,21500,2026-06-21,closed_lost
+D0020,2026-07-20,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-07-20,Closed Won,77500,2026-06-17,closed_won
+D0022,2026-07-20,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-07-20,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-07-20,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-07-20,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-07-20,Closed Won,48000,2026-06-03,closed_won
+D0027,2026-07-20,Closed Won,14500,2026-05-24,closed_won
+D0028,2026-07-20,Proposal,19500,2026-07-21,best_case
+D0029,2026-07-20,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-07-20,Negotiation,12500,2026-08-05,commit
+D0031,2026-07-20,Closed Lost,33000,2026-05-23,closed_lost
+D0032,2026-07-20,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-07-20,Closed Won,21000,2026-06-19,closed_won
+D0034,2026-07-20,Closed Lost,60000,2026-06-28,closed_lost
+D0035,2026-07-20,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-07-20,Solution Design,57500,2026-08-08,best_case
+D0037,2026-07-20,Solution Design,123000,2026-07-24,best_case
+D0038,2026-07-20,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-07-20,Solution Design,5500,2026-08-08,best_case
+D0040,2026-07-20,Closed Lost,9000,2026-07-01,closed_lost
+D0041,2026-07-20,Closed Lost,75500,2026-06-12,closed_lost
+D0042,2026-07-20,Closed Won,32000,2026-05-21,closed_won
+D0043,2026-07-20,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-07-20,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-07-20,Closed Won,59000,2026-07-03,closed_won
+D0046,2026-07-20,Proposal,61000,2026-09-23,pipeline
+D0047,2026-07-20,Closed Won,41000,2026-07-12,closed_won
+D0048,2026-07-20,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-07-20,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-07-20,Closed Won,65000,2026-06-26,closed_won
+D0051,2026-07-20,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-07-20,Closed Won,42000,2026-07-05,closed_won
+D0053,2026-07-20,Closed Won,25000,2026-07-12,closed_won
+D0054,2026-07-20,Closed Lost,28000,2026-06-28,closed_lost
+D0055,2026-07-20,Solution Design,45500,2026-07-27,best_case
+D0056,2026-07-20,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-07-20,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-07-20,Negotiation,127500,2026-08-27,commit
+D0059,2026-07-20,Closed Lost,126000,2026-06-03,closed_lost
+D0060,2026-07-20,Closed Lost,64000,2026-06-17,closed_lost
+D0061,2026-07-20,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-07-20,Closed Lost,33500,2026-07-16,closed_lost
+D0063,2026-07-20,Discovery,40500,2026-08-11,pipeline
+D0064,2026-07-20,Closed Lost,36500,2026-06-28,closed_lost
+D0065,2026-07-20,Closed Lost,26500,2026-06-13,closed_lost
+D0066,2026-07-20,Closed Won,71500,2026-07-11,closed_won
+D0067,2026-07-20,Solution Design,74000,2026-08-10,best_case
+D0068,2026-07-20,Discovery,92500,2026-08-02,pipeline
+D0069,2026-07-20,Proposal,126000,2026-08-07,best_case
+D0070,2026-07-20,Solution Design,42000,2026-07-21,best_case
+D0071,2026-07-20,Discovery,8000,2026-07-29,pipeline
+D0072,2026-07-20,Solution Design,12000,2026-07-21,pipeline
+D0073,2026-07-20,Qualification,27500,2026-09-07,pipeline
+D0074,2026-07-20,Negotiation,55000,2026-07-12,commit
+D0075,2026-07-20,Discovery,9000,2026-08-02,pipeline
+D0076,2026-07-20,Closed Lost,26500,2026-06-13,closed_lost
+D0077,2026-07-20,Discovery,90000,2026-09-27,pipeline
+D0078,2026-07-20,Qualification,60000,2026-08-05,pipeline
+D0079,2026-07-20,Discovery,34000,2026-08-24,pipeline
+D0080,2026-07-20,Closed Lost,17500,2026-05-24,closed_lost
+D0081,2026-07-20,Closed Lost,6500,2026-06-03,closed_lost
+D0082,2026-07-20,Closed Lost,40500,2026-06-03,closed_lost
+D0083,2026-07-20,Closed Lost,129500,2026-07-09,closed_lost
+D0084,2026-07-20,Proposal,85000,2026-10-15,best_case
+D0085,2026-07-20,Solution Design,43500,2026-08-29,pipeline
+D0086,2026-07-20,Discovery,35500,2026-08-09,pipeline
+D0087,2026-07-20,Solution Design,79500,2026-07-25,best_case
+D0088,2026-07-20,Discovery,19000,2026-09-03,best_case
+D0089,2026-07-20,Closed Lost,32000,2026-07-04,closed_lost
+D0090,2026-07-20,Solution Design,69000,2026-09-02,best_case
+D0091,2026-07-20,Closed Lost,56000,2026-07-17,closed_lost
+D0092,2026-07-20,Closed Lost,65500,2026-07-05,closed_lost
+D0093,2026-07-20,Closed Lost,12500,2026-06-25,closed_lost
+D0094,2026-07-20,Closed Lost,160000,2026-07-03,closed_lost
+D0095,2026-07-20,Discovery,45000,2026-09-24,pipeline
+D0096,2026-07-20,Discovery,36500,2026-10-05,pipeline
+D0097,2026-07-20,Discovery,14500,2026-08-18,best_case
+D0098,2026-07-20,Solution Design,32000,2026-08-27,best_case
+D0099,2026-07-20,Qualification,37500,2026-08-14,pipeline
+D0100,2026-07-20,Discovery,20500,2026-10-03,pipeline
+D0101,2026-07-20,Solution Design,76000,2026-08-19,best_case
+D0102,2026-07-20,Qualification,161000,2026-07-31,pipeline
+D0103,2026-07-20,Closed Lost,78000,2026-07-05,closed_lost
+D0104,2026-07-20,Proposal,40000,2026-09-13,best_case
+D0105,2026-07-20,Qualification,65500,2026-09-09,pipeline
+D0106,2026-07-20,Closed Lost,30000,2026-07-11,closed_lost
+D0107,2026-07-20,Closed Lost,19000,2026-07-12,closed_lost
+D0108,2026-07-20,Qualification,10000,2026-09-27,pipeline
+D0109,2026-07-20,Qualification,38000,2026-10-26,pipeline
+D0110,2026-07-20,Closed Lost,11000,2026-07-16,closed_lost
+D0111,2026-07-20,Discovery,76000,2026-10-07,pipeline
+D0112,2026-07-20,Qualification,172500,2026-09-06,pipeline
+D0113,2026-07-20,Qualification,122500,2026-09-08,pipeline
+D0114,2026-07-20,Qualification,53500,2026-10-07,pipeline
+D0115,2026-07-20,Qualification,78500,2026-09-03,pipeline
+D0116,2026-07-20,Qualification,21500,2026-09-07,pipeline
+D0117,2026-07-20,Qualification,51000,2026-09-08,pipeline
+D0118,2026-07-20,Qualification,8500,2026-10-30,pipeline
+D0119,2026-07-20,Qualification,52000,2026-10-02,pipeline
+D0120,2026-07-20,Discovery,25500,2026-10-21,pipeline
+D0001,2026-07-27,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-07-27,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-07-27,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-07-27,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-07-27,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-07-27,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-07-27,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-07-27,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-07-27,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-07-27,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-07-27,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-07-27,Closed Won,15500,2026-05-31,closed_won
+D0013,2026-07-27,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-07-27,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-07-27,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-07-27,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-07-27,Closed Won,17000,2026-07-19,closed_won
+D0018,2026-07-27,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-07-27,Closed Lost,21500,2026-06-21,closed_lost
+D0020,2026-07-27,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-07-27,Closed Won,77500,2026-06-17,closed_won
+D0022,2026-07-27,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-07-27,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-07-27,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-07-27,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-07-27,Closed Won,48000,2026-06-03,closed_won
+D0027,2026-07-27,Closed Won,14500,2026-05-24,closed_won
+D0028,2026-07-27,Proposal,19500,2026-09-09,best_case
+D0029,2026-07-27,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-07-27,Negotiation,12500,2026-08-05,commit
+D0031,2026-07-27,Closed Lost,33000,2026-05-23,closed_lost
+D0032,2026-07-27,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-07-27,Closed Won,21000,2026-06-19,closed_won
+D0034,2026-07-27,Closed Lost,60000,2026-06-28,closed_lost
+D0035,2026-07-27,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-07-27,Proposal,57500,2026-08-08,best_case
+D0037,2026-07-27,Solution Design,123000,2026-07-24,best_case
+D0038,2026-07-27,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-07-27,Solution Design,5500,2026-08-08,best_case
+D0040,2026-07-27,Closed Lost,9000,2026-07-01,closed_lost
+D0041,2026-07-27,Closed Lost,75500,2026-06-12,closed_lost
+D0042,2026-07-27,Closed Won,32000,2026-05-21,closed_won
+D0043,2026-07-27,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-07-27,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-07-27,Closed Won,59000,2026-07-03,closed_won
+D0046,2026-07-27,Proposal,61000,2026-09-23,pipeline
+D0047,2026-07-27,Closed Won,41000,2026-07-12,closed_won
+D0048,2026-07-27,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-07-27,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-07-27,Closed Won,65000,2026-06-26,closed_won
+D0051,2026-07-27,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-07-27,Closed Won,42000,2026-07-05,closed_won
+D0053,2026-07-27,Closed Won,25000,2026-07-12,closed_won
+D0054,2026-07-27,Closed Lost,28000,2026-06-28,closed_lost
+D0055,2026-07-27,Solution Design,45500,2026-07-27,best_case
+D0056,2026-07-27,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-07-27,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-07-27,Closed Won,127500,2026-07-25,closed_won
+D0059,2026-07-27,Closed Lost,126000,2026-06-03,closed_lost
+D0060,2026-07-27,Closed Lost,64000,2026-06-17,closed_lost
+D0061,2026-07-27,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-07-27,Closed Lost,33500,2026-07-16,closed_lost
+D0063,2026-07-27,Discovery,50500,2026-08-25,pipeline
+D0064,2026-07-27,Closed Lost,36500,2026-06-28,closed_lost
+D0065,2026-07-27,Closed Lost,26500,2026-06-13,closed_lost
+D0066,2026-07-27,Closed Won,71500,2026-07-11,closed_won
+D0067,2026-07-27,Solution Design,74000,2026-08-10,best_case
+D0068,2026-07-27,Discovery,92500,2026-08-02,pipeline
+D0069,2026-07-27,Proposal,126000,2026-08-07,best_case
+D0070,2026-07-27,Proposal,42000,2026-08-28,best_case
+D0071,2026-07-27,Discovery,8000,2026-07-29,pipeline
+D0072,2026-07-27,Solution Design,12000,2026-08-06,pipeline
+D0073,2026-07-27,Discovery,27500,2026-10-14,pipeline
+D0074,2026-07-27,Closed Won,55000,2026-07-24,closed_won
+D0075,2026-07-27,Discovery,9000,2026-08-02,pipeline
+D0076,2026-07-27,Closed Lost,26500,2026-06-13,closed_lost
+D0077,2026-07-27,Discovery,90000,2026-09-27,pipeline
+D0078,2026-07-27,Qualification,60000,2026-09-03,pipeline
+D0079,2026-07-27,Discovery,34000,2026-08-24,pipeline
+D0080,2026-07-27,Closed Lost,17500,2026-05-24,closed_lost
+D0081,2026-07-27,Closed Lost,6500,2026-06-03,closed_lost
+D0082,2026-07-27,Closed Lost,40500,2026-06-03,closed_lost
+D0083,2026-07-27,Closed Lost,129500,2026-07-09,closed_lost
+D0084,2026-07-27,Negotiation,85000,2026-10-15,commit
+D0085,2026-07-27,Solution Design,43500,2026-08-29,pipeline
+D0086,2026-07-27,Discovery,35500,2026-08-09,pipeline
+D0087,2026-07-27,Proposal,79500,2026-08-20,pipeline
+D0088,2026-07-27,Discovery,19000,2026-09-03,best_case
+D0089,2026-07-27,Closed Lost,32000,2026-07-04,closed_lost
+D0090,2026-07-27,Proposal,69000,2026-09-02,commit
+D0091,2026-07-27,Closed Lost,56000,2026-07-17,closed_lost
+D0092,2026-07-27,Closed Lost,65500,2026-07-05,closed_lost
+D0093,2026-07-27,Closed Lost,12500,2026-06-25,closed_lost
+D0094,2026-07-27,Closed Lost,160000,2026-07-03,closed_lost
+D0095,2026-07-27,Discovery,56000,2026-09-24,pipeline
+D0096,2026-07-27,Solution Design,36500,2026-10-05,commit
+D0097,2026-07-27,Discovery,14500,2026-08-18,best_case
+D0098,2026-07-27,Solution Design,32000,2026-08-27,best_case
+D0099,2026-07-27,Qualification,37500,2026-09-03,pipeline
+D0100,2026-07-27,Discovery,20500,2026-10-03,pipeline
+D0101,2026-07-27,Closed Lost,76000,2026-07-23,closed_lost
+D0102,2026-07-27,Qualification,161000,2026-07-31,pipeline
+D0103,2026-07-27,Closed Lost,78000,2026-07-05,closed_lost
+D0104,2026-07-27,Proposal,28000,2026-10-10,best_case
+D0105,2026-07-27,Qualification,65500,2026-09-09,pipeline
+D0106,2026-07-27,Closed Lost,30000,2026-07-11,closed_lost
+D0107,2026-07-27,Closed Lost,19000,2026-07-12,closed_lost
+D0108,2026-07-27,Closed Lost,10000,2026-07-26,closed_lost
+D0109,2026-07-27,Qualification,38000,2026-10-26,pipeline
+D0110,2026-07-27,Closed Lost,11000,2026-07-16,closed_lost
+D0111,2026-07-27,Discovery,76000,2026-10-07,pipeline
+D0112,2026-07-27,Qualification,172500,2026-09-06,pipeline
+D0113,2026-07-27,Qualification,122500,2026-09-08,pipeline
+D0114,2026-07-27,Qualification,53500,2026-10-07,pipeline
+D0115,2026-07-27,Discovery,78500,2026-09-03,pipeline
+D0116,2026-07-27,Discovery,21500,2026-09-07,pipeline
+D0117,2026-07-27,Qualification,51000,2026-09-08,pipeline
+D0118,2026-07-27,Qualification,8500,2026-10-30,pipeline
+D0119,2026-07-27,Qualification,52000,2026-11-01,pipeline
+D0120,2026-07-27,Discovery,25500,2026-10-21,pipeline
+D0121,2026-07-27,Qualification,69500,2026-10-18,pipeline
+D0122,2026-07-27,Qualification,51500,2026-09-03,pipeline
+D0123,2026-07-27,Qualification,71000,2026-09-15,pipeline
+D0124,2026-07-27,Discovery,21500,2026-09-15,pipeline
+D0001,2026-08-03,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-08-03,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-08-03,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-08-03,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-08-03,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-08-03,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-08-03,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-08-03,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-08-03,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-08-03,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-08-03,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-08-03,Closed Won,15500,2026-05-31,closed_won
+D0013,2026-08-03,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-08-03,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-08-03,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-08-03,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-08-03,Closed Won,17000,2026-07-19,closed_won
+D0018,2026-08-03,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-08-03,Closed Lost,21500,2026-06-21,closed_lost
+D0020,2026-08-03,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-08-03,Closed Won,77500,2026-06-17,closed_won
+D0022,2026-08-03,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-08-03,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-08-03,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-08-03,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-08-03,Closed Won,48000,2026-06-03,closed_won
+D0027,2026-08-03,Closed Won,14500,2026-05-24,closed_won
+D0028,2026-08-03,Proposal,19500,2026-09-09,best_case
+D0029,2026-08-03,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-08-03,Negotiation,12500,2026-08-05,commit
+D0031,2026-08-03,Closed Lost,33000,2026-05-23,closed_lost
+D0032,2026-08-03,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-08-03,Closed Won,21000,2026-06-19,closed_won
+D0034,2026-08-03,Closed Lost,60000,2026-06-28,closed_lost
+D0035,2026-08-03,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-08-03,Proposal,57500,2026-08-08,best_case
+D0037,2026-08-03,Solution Design,123000,2026-09-11,best_case
+D0038,2026-08-03,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-08-03,Solution Design,5500,2026-08-08,best_case
+D0040,2026-08-03,Closed Lost,9000,2026-07-01,closed_lost
+D0041,2026-08-03,Closed Lost,75500,2026-06-12,closed_lost
+D0042,2026-08-03,Closed Won,32000,2026-05-21,closed_won
+D0043,2026-08-03,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-08-03,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-08-03,Closed Won,59000,2026-07-03,closed_won
+D0046,2026-08-03,Solution Design,61000,2026-09-23,pipeline
+D0047,2026-08-03,Closed Won,41000,2026-07-12,closed_won
+D0048,2026-08-03,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-08-03,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-08-03,Closed Won,65000,2026-06-26,closed_won
+D0051,2026-08-03,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-08-03,Closed Won,42000,2026-07-05,closed_won
+D0053,2026-08-03,Closed Won,25000,2026-07-12,closed_won
+D0054,2026-08-03,Closed Lost,28000,2026-06-28,closed_lost
+D0055,2026-08-03,Solution Design,45500,2026-09-16,best_case
+D0056,2026-08-03,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-08-03,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-08-03,Closed Won,127500,2026-07-25,closed_won
+D0059,2026-08-03,Closed Lost,126000,2026-06-03,closed_lost
+D0060,2026-08-03,Closed Lost,64000,2026-06-17,closed_lost
+D0061,2026-08-03,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-08-03,Closed Lost,33500,2026-07-16,closed_lost
+D0063,2026-08-03,Discovery,50500,2026-08-25,pipeline
+D0064,2026-08-03,Closed Lost,36500,2026-06-28,closed_lost
+D0065,2026-08-03,Closed Lost,26500,2026-06-13,closed_lost
+D0066,2026-08-03,Closed Won,71500,2026-07-11,closed_won
+D0067,2026-08-03,Proposal,63000,2026-08-10,pipeline
+D0068,2026-08-03,Discovery,92500,2026-08-30,pipeline
+D0069,2026-08-03,Negotiation,126000,2026-08-07,commit
+D0070,2026-08-03,Proposal,42000,2026-08-28,best_case
+D0071,2026-08-03,Discovery,8000,2026-09-07,pipeline
+D0072,2026-08-03,Solution Design,12000,2026-08-06,pipeline
+D0073,2026-08-03,Solution Design,27500,2026-10-14,best_case
+D0074,2026-08-03,Closed Won,55000,2026-07-24,closed_won
+D0075,2026-08-03,Closed Lost,9000,2026-08-01,closed_lost
+D0076,2026-08-03,Closed Lost,26500,2026-06-13,closed_lost
+D0077,2026-08-03,Discovery,90000,2026-09-27,pipeline
+D0078,2026-08-03,Qualification,60000,2026-09-03,pipeline
+D0079,2026-08-03,Solution Design,34000,2026-08-24,best_case
+D0080,2026-08-03,Closed Lost,17500,2026-05-24,closed_lost
+D0081,2026-08-03,Closed Lost,6500,2026-06-03,closed_lost
+D0082,2026-08-03,Closed Lost,40500,2026-06-03,closed_lost
+D0083,2026-08-03,Closed Lost,129500,2026-07-09,closed_lost
+D0084,2026-08-03,Negotiation,85000,2026-10-15,commit
+D0085,2026-08-03,Proposal,48000,2026-08-29,commit
+D0086,2026-08-03,Discovery,35500,2026-08-09,pipeline
+D0087,2026-08-03,Proposal,79500,2026-08-20,pipeline
+D0088,2026-08-03,Solution Design,19000,2026-09-03,best_case
+D0089,2026-08-03,Closed Lost,32000,2026-07-04,closed_lost
+D0090,2026-08-03,Proposal,69000,2026-09-02,commit
+D0091,2026-08-03,Closed Lost,56000,2026-07-17,closed_lost
+D0092,2026-08-03,Closed Lost,65500,2026-07-05,closed_lost
+D0093,2026-08-03,Closed Lost,12500,2026-06-25,closed_lost
+D0094,2026-08-03,Closed Lost,160000,2026-07-03,closed_lost
+D0095,2026-08-03,Discovery,56000,2026-09-24,pipeline
+D0096,2026-08-03,Solution Design,36500,2026-10-05,commit
+D0097,2026-08-03,Discovery,14500,2026-08-18,best_case
+D0098,2026-08-03,Proposal,40000,2026-09-16,best_case
+D0099,2026-08-03,Discovery,37500,2026-09-03,best_case
+D0100,2026-08-03,Solution Design,20500,2026-10-03,pipeline
+D0101,2026-08-03,Closed Lost,76000,2026-07-23,closed_lost
+D0102,2026-08-03,Qualification,161000,2026-09-16,pipeline
+D0103,2026-08-03,Closed Lost,78000,2026-07-05,closed_lost
+D0104,2026-08-03,Proposal,28000,2026-10-10,best_case
+D0105,2026-08-03,Discovery,65500,2026-09-09,pipeline
+D0106,2026-08-03,Closed Lost,30000,2026-07-11,closed_lost
+D0107,2026-08-03,Closed Lost,19000,2026-07-12,closed_lost
+D0108,2026-08-03,Closed Lost,10000,2026-07-26,closed_lost
+D0109,2026-08-03,Discovery,38000,2026-10-26,pipeline
+D0110,2026-08-03,Closed Lost,11000,2026-07-16,closed_lost
+D0111,2026-08-03,Discovery,76000,2026-10-07,pipeline
+D0112,2026-08-03,Qualification,172500,2026-09-06,pipeline
+D0113,2026-08-03,Qualification,122500,2026-08-27,pipeline
+D0114,2026-08-03,Qualification,53500,2026-10-07,pipeline
+D0115,2026-08-03,Discovery,78500,2026-09-03,pipeline
+D0116,2026-08-03,Solution Design,21500,2026-09-07,best_case
+D0117,2026-08-03,Qualification,51000,2026-09-08,pipeline
+D0118,2026-08-03,Qualification,8500,2026-10-30,pipeline
+D0119,2026-08-03,Qualification,52000,2026-11-01,pipeline
+D0120,2026-08-03,Discovery,25500,2026-10-21,pipeline
+D0121,2026-08-03,Qualification,69500,2026-10-18,pipeline
+D0122,2026-08-03,Qualification,51500,2026-09-03,pipeline
+D0123,2026-08-03,Qualification,71000,2026-09-15,pipeline
+D0124,2026-08-03,Discovery,21500,2026-09-15,pipeline
+D0125,2026-08-03,Qualification,31500,2026-11-02,pipeline
+D0126,2026-08-03,Discovery,53000,2026-10-06,pipeline
+D0001,2026-08-10,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-08-10,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-08-10,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-08-10,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-08-10,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-08-10,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-08-10,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-08-10,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-08-10,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-08-10,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-08-10,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-08-10,Closed Won,15500,2026-05-31,closed_won
+D0013,2026-08-10,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-08-10,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-08-10,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-08-10,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-08-10,Closed Won,17000,2026-07-19,closed_won
+D0018,2026-08-10,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-08-10,Closed Lost,21500,2026-06-21,closed_lost
+D0020,2026-08-10,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-08-10,Closed Won,77500,2026-06-17,closed_won
+D0022,2026-08-10,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-08-10,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-08-10,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-08-10,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-08-10,Closed Won,48000,2026-06-03,closed_won
+D0027,2026-08-10,Closed Won,14500,2026-05-24,closed_won
+D0028,2026-08-10,Proposal,19500,2026-09-09,best_case
+D0029,2026-08-10,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-08-10,Closed Lost,12500,2026-08-08,closed_lost
+D0031,2026-08-10,Closed Lost,33000,2026-05-23,closed_lost
+D0032,2026-08-10,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-08-10,Closed Won,21000,2026-06-19,closed_won
+D0034,2026-08-10,Closed Lost,60000,2026-06-28,closed_lost
+D0035,2026-08-10,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-08-10,Proposal,57500,2026-09-04,best_case
+D0037,2026-08-10,Solution Design,123000,2026-09-11,best_case
+D0038,2026-08-10,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-08-10,Solution Design,5500,2026-08-24,best_case
+D0040,2026-08-10,Closed Lost,9000,2026-07-01,closed_lost
+D0041,2026-08-10,Closed Lost,75500,2026-06-12,closed_lost
+D0042,2026-08-10,Closed Won,32000,2026-05-21,closed_won
+D0043,2026-08-10,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-08-10,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-08-10,Closed Won,59000,2026-07-03,closed_won
+D0046,2026-08-10,Solution Design,52000,2026-09-23,pipeline
+D0047,2026-08-10,Closed Won,41000,2026-07-12,closed_won
+D0048,2026-08-10,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-08-10,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-08-10,Closed Won,65000,2026-06-26,closed_won
+D0051,2026-08-10,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-08-10,Closed Won,42000,2026-07-05,closed_won
+D0053,2026-08-10,Closed Won,25000,2026-07-12,closed_won
+D0054,2026-08-10,Closed Lost,28000,2026-06-28,closed_lost
+D0055,2026-08-10,Solution Design,45500,2026-09-16,best_case
+D0056,2026-08-10,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-08-10,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-08-10,Closed Won,127500,2026-07-25,closed_won
+D0059,2026-08-10,Closed Lost,126000,2026-06-03,closed_lost
+D0060,2026-08-10,Closed Lost,64000,2026-06-17,closed_lost
+D0061,2026-08-10,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-08-10,Closed Lost,33500,2026-07-16,closed_lost
+D0063,2026-08-10,Discovery,,2026-08-25,pipeline
+D0064,2026-08-10,Closed Lost,36500,2026-06-28,closed_lost
+D0065,2026-08-10,Closed Lost,26500,2026-06-13,closed_lost
+D0066,2026-08-10,Closed Won,71500,2026-07-11,closed_won
+D0067,2026-08-10,Proposal,63000,2026-08-10,pipeline
+D0068,2026-08-10,Solution design,92500,2026-08-30,best_case
+D0069,2026-08-10,Negotiation,126000,2026-09-19,commit
+D0070,2026-08-10,Negotiation,42000,2026-08-28,commit
+D0071,2026-08-10,Discovery,8000,2026-09-07,pipeline
+D0072,2026-08-10,Solution Design,12000,2026-08-21,pipeline
+D0073,2026-08-10,Solution Design,27500,2026-10-14,best_case
+D0074,2026-08-10,Closed Won,55000,2026-07-24,closed_won
+D0075,2026-08-10,Closed Lost,9000,2026-08-01,closed_lost
+D0076,2026-08-10,Closed Lost,26500,2026-06-13,closed_lost
+D0077,2026-08-10,Qualification,90000,2026-09-27,pipeline
+D0078,2026-08-10,Qualification,60000,2026-09-03,pipeline
+D0079,2026-08-10,Solution Design,34000,2026-08-24,best_case
+D0080,2026-08-10,Closed Lost,17500,2026-05-24,closed_lost
+D0081,2026-08-10,Closed Lost,6500,2026-06-03,closed_lost
+D0082,2026-08-10,Closed Lost,40500,2026-06-03,closed_lost
+D0083,2026-08-10,Closed Lost,129500,2026-07-09,closed_lost
+D0084,2026-08-10,Closed Won,85000,2026-08-08,closed_won
+D0085,2026-08-10,Negotiation,48000,2026-08-29,commit
+D0086,2026-08-10,Discovery,35500,2026-09-12,pipeline
+D0087,2026-08-10,Proposal,79500,2026-08-20,pipeline
+D0088,2026-08-10,Proposal,19000,2026-09-03,best_case
+D0089,2026-08-10,Closed Lost,32000,2026-07-04,closed_lost
+D0090,2026-08-10,Proposal,69000,2026-09-02,commit
+D0091,2026-08-10,Closed Lost,56000,2026-07-17,closed_lost
+D0092,2026-08-10,Closed Lost,65500,2026-07-05,closed_lost
+D0093,2026-08-10,Closed Lost,12500,2026-06-25,closed_lost
+D0094,2026-08-10,Closed Lost,160000,2026-07-03,closed_lost
+D0095,2026-08-10,Discovery,56000,2026-09-24,pipeline
+D0096,2026-08-10,Solution Design,36500,2026-10-05,commit
+D0097,2026-08-10,Discovery,14500,2026-08-18,best_case
+D0098,2026-08-10,Proposal,40000,2026-09-16,best_case
+D0099,2026-08-10,Solution Design,37500,2026-09-03,best_case
+D0100,2026-08-10,Solution Design,20500,2026-10-03,pipeline
+D0101,2026-08-10,Closed Lost,76000,2026-07-23,closed_lost
+D0102,2026-08-10,Qualification,161000,2026-09-16,pipeline
+D0103,2026-08-10,Closed Lost,78000,2026-07-05,closed_lost
+D0104,2026-08-10,Proposal,28000,2026-10-10,best_case
+D0105,2026-08-10,Solution Design,65500,2026-09-09,commit
+D0106,2026-08-10,Closed Lost,30000,2026-07-11,closed_lost
+D0107,2026-08-10,Closed Lost,19000,2026-07-12,closed_lost
+D0108,2026-08-10,Closed Lost,10000,2026-07-26,closed_lost
+D0109,2026-08-10,Discovery,38000,2026-10-26,pipeline
+D0110,2026-08-10,Closed Lost,11000,2026-07-16,closed_lost
+D0111,2026-08-10,Discovery,76000,2026-10-07,pipeline
+D0112,2026-08-10,Qualification,172500,2026-09-06,pipeline
+D0113,2026-08-10,Qualification,122500,2026-08-27,pipeline
+D0114,2026-08-10,Discovery,53500,2026-10-26,pipeline
+D0115,2026-08-10,Discovery,55000,2026-09-03,pipeline
+D0116,2026-08-10,Solution Design,21500,2026-09-07,best_case
+D0117,2026-08-10,Qualification,51000,2026-09-08,pipeline
+D0118,2026-08-10,Qualification,8500,2026-10-30,pipeline
+D0119,2026-08-10,Closed Lost,52000,2026-08-08,closed_lost
+D0120,2026-08-10,Solution Design,25500,2026-10-21,best_case
+D0121,2026-08-10,Qualification,69500,2026-10-18,pipeline
+D0122,2026-08-10,Discovery,51500,2026-09-03,pipeline
+D0123,2026-08-10,Qualification,71000,2026-09-15,pipeline
+D0124,2026-08-10,Solution Design,21500,2026-10-17,pipeline
+D0125,2026-08-10,Qualification,27000,2026-10-15,pipeline
+D0126,2026-08-10,Discovery,53000,2026-10-06,pipeline
+D0127,2026-08-10,Discovery,108000,2026-10-29,pipeline
+D0128,2026-08-10,Qualification,114000,2026-09-30,pipeline
+D0129,2026-08-10,Discovery,12000,2026-11-29,pipeline
+D0130,2026-08-10,Qualification,30500,2026-10-21,pipeline
+D0131,2026-08-10,Qualification,39000,2026-11-09,pipeline
+D0132,2026-08-10,Qualification,83000,2026-09-23,pipeline
+D0001,2026-08-17,Closed Lost,35000,2026-02-26,closed_lost
+D0002,2026-08-17,Closed Lost,34500,2026-03-04,closed_lost
+D0003,2026-08-17,Closed Lost,49500,2026-01-18,closed_lost
+D0004,2026-08-17,Closed Lost,69500,2026-01-24,closed_lost
+D0005,2026-08-17,Closed Won,60000,2026-05-16,closed_won
+D0006,2026-08-17,Closed Won,42000,2026-04-25,closed_won
+D0007,2026-08-17,Closed Lost,40000,2026-03-15,closed_lost
+D0008,2026-08-17,Closed Lost,48000,2026-01-14,closed_lost
+D0009,2026-08-17,Closed Won,37000,2026-05-02,closed_won
+D0010,2026-08-17,Closed Lost,25500,2026-01-16,closed_lost
+D0011,2026-08-17,Closed Lost,152000,2026-01-15,closed_lost
+D0012,2026-08-17,Closed Won,15500,2026-05-31,closed_won
+D0013,2026-08-17,Closed Lost,49000,2026-02-15,closed_lost
+D0014,2026-08-17,Closed Lost,36500,2026-04-11,closed_lost
+D0015,2026-08-17,Closed Lost,47500,2026-03-21,closed_lost
+D0016,2026-08-17,Closed Lost,32000,2026-05-15,closed_lost
+D0017,2026-08-17,Closed Won,17000,2026-07-19,closed_won
+D0018,2026-08-17,Closed Lost,12500,2026-01-28,closed_lost
+D0019,2026-08-17,Closed Lost,21500,2026-06-21,closed_lost
+D0020,2026-08-17,Closed Lost,104500,2026-04-03,closed_lost
+D0021,2026-08-17,Closed Won,77500,2026-06-17,closed_won
+D0022,2026-08-17,Closed Lost,20000,2026-04-18,closed_lost
+D0023,2026-08-17,Closed Lost,10500,2026-02-28,closed_lost
+D0024,2026-08-17,Closed Won,38000,2026-05-13,closed_won
+D0025,2026-08-17,Closed Lost,16000,2026-03-12,closed_lost
+D0026,2026-08-17,Closed Won,48000,2026-06-03,closed_won
+D0027,2026-08-17,Closed Won,14500,2026-05-24,closed_won
+D0028,2026-08-17,Proposal,21500,2026-09-09,best_case
+D0029,2026-08-17,Closed Lost,178000,2026-02-20,closed_lost
+D0030,2026-08-17,Closed Lost,12500,2026-08-08,closed_lost
+D0031,2026-08-17,Closed Lost,33000,2026-05-23,closed_lost
+D0032,2026-08-17,Closed Won,26000,2026-04-03,closed_won
+D0033,2026-08-17,Closed Won,21000,2026-06-19,closed_won
+D0034,2026-08-17,Closed Lost,60000,2026-06-28,closed_lost
+D0035,2026-08-17,Closed Lost,54000,2026-04-17,closed_lost
+D0036,2026-08-17,Proposal,57500,2026-09-04,best_case
+D0037,2026-08-17,Proposal,123000,2026-09-11,best_case
+D0038,2026-08-17,Closed Lost,22000,2026-04-05,closed_lost
+D0039,2026-08-17,Proposal,5500,2026-08-24,commit
+D0040,2026-08-17,Closed Lost,9000,2026-07-01,closed_lost
+D0041,2026-08-17,Closed Lost,75500,2026-06-12,closed_lost
+D0042,2026-08-17,Closed Won,32000,2026-05-21,closed_won
+D0043,2026-08-17,Closed Lost,44000,2026-04-05,closed_lost
+D0044,2026-08-17,Closed Lost,33500,2026-03-26,closed_lost
+D0045,2026-08-17,Closed Won,59000,2026-07-03,closed_won
+D0046,2026-08-17,Solution Design,52000,2026-09-23,pipeline
+D0047,2026-08-17,Closed Won,41000,2026-07-12,closed_won
+D0048,2026-08-17,Closed Lost,14500,2026-04-26,closed_lost
+D0049,2026-08-17,Closed Lost,9000,2026-03-29,closed_lost
+D0050,2026-08-17,Closed Won,65000,2026-06-26,closed_won
+D0051,2026-08-17,Closed Lost,14000,2026-04-08,closed_lost
+D0052,2026-08-17,Closed Won,42000,2026-07-05,closed_won
+D0053,2026-08-17,Closed Won,25000,2026-07-12,closed_won
+D0054,2026-08-17,Closed Lost,28000,2026-06-28,closed_lost
+D0055,2026-08-17,Proposal,45500,2026-09-16,best_case
+D0056,2026-08-17,Closed Lost,81000,2026-04-09,closed_lost
+D0057,2026-08-17,Closed Lost,35000,2026-04-29,closed_lost
+D0058,2026-08-17,Closed Won,127500,2026-07-25,closed_won
+D0059,2026-08-17,Closed Lost,126000,2026-06-03,closed_lost
+D0060,2026-08-17,Closed Lost,64000,2026-06-17,closed_lost
+D0061,2026-08-17,Closed Lost,9500,2026-04-17,closed_lost
+D0062,2026-08-17,Closed Lost,33500,2026-07-16,closed_lost
+D0063,2026-08-17,Discovery,,2026-08-25,pipeline
+D0064,2026-08-17,Closed Lost,36500,2026-06-28,closed_lost
+D0065,2026-08-17,Closed Lost,26500,2026-06-13,closed_lost
+D0066,2026-08-17,Closed Won,71500,2026-07-11,closed_won
+D0067,2026-08-17,Proposal,63000,2026-08-10,pipeline
+D0068,2026-08-17,Proposal Sent,92500,2026-08-30,pipeline
+D0069,2026-08-17,Negotiation,126000,2026-10-16,commit
+D0070,2026-08-17,Negotiation,42000,2026-08-28,commit
+D0071,2026-08-17,Closed Lost,8000,2026-08-16,closed_lost
+D0072,2026-08-17,Closed Lost,12000,2026-08-13,closed_lost
+D0073,2026-08-17,Solution Design,27500,2026-09-25,best_case
+D0074,2026-08-17,Closed Won,55000,2026-07-24,closed_won
+D0075,2026-08-17,Closed Lost,9000,2026-08-01,closed_lost
+D0076,2026-08-17,Closed Lost,26500,2026-06-13,closed_lost
+D0077,2026-08-17,Qualification,90000,2026-09-27,pipeline
+D0078,2026-08-17,Qualification,60000,2026-09-03,pipeline
+D0079,2026-08-17,Solution Design,34000,2026-09-10,best_case
+D0080,2026-08-17,Closed Lost,17500,2026-05-24,closed_lost
+D0081,2026-08-17,Closed Lost,6500,2026-06-03,closed_lost
+D0082,2026-08-17,Closed Lost,40500,2026-06-03,closed_lost
+D0083,2026-08-17,Closed Lost,129500,2026-07-09,closed_lost
+D0084,2026-08-17,Closed Won,85000,2026-08-08,closed_won
+D0085,2026-08-17,Closed Won,48000,2026-08-13,closed_won
+D0086,2026-08-17,Discovery,35500,2026-09-12,pipeline
+D0087,2026-08-17,Proposal Sent,79500,2026-08-20,pipeline
+D0088,2026-08-17,Proposal,19000,2026-09-03,best_case
+D0089,2026-08-17,Closed Lost,32000,2026-07-04,closed_lost
+D0090,2026-08-17,Proposal,69000,2026-09-02,commit
+D0090,2026-08-17,Proposal,69000,2026-09-02,commit
+D0091,2026-08-17,Closed Lost,56000,2026-07-17,closed_lost
+D0092,2026-08-17,Closed Lost,65500,2026-07-05,closed_lost
+D0093,2026-08-17,Closed Lost,12500,2026-06-25,closed_lost
+D0094,2026-08-17,Closed Lost,160000,2026-07-03,closed_lost
+D0095,2026-08-17,Qualification,56000,2026-09-24,pipeline
+D0096,2026-08-17,Solution Design,36500,2026-10-05,commit
+D0097,2026-08-17,Discovery,14500,2026-08-18,best_case
+D0098,2026-08-17,Negotiation,40000,2026-08-08,commit
+D0099,2026-08-17,Solution Design,-37500,2026-09-03,best_case
+D0100,2026-08-17,Proposal,20500,2026-10-31,best_case
+D0101,2026-08-17,Closed Lost,76000,2026-07-23,closed_lost
+D0102,2026-08-17,Qualification,161000,2026-09-16,pipeline
+D0103,2026-08-17,Closed Lost,78000,2026-07-05,closed_lost
+D0104,2026-08-17,Negotiation,28000,2026-10-27,commit
+D0105,2026-08-17,Solution Design,65500,2026-09-09,commit
+D0106,2026-08-17,Closed Lost,30000,2026-07-11,closed_lost
+D0107,2026-08-17,Closed Lost,19000,2026-07-12,closed_lost
+D0108,2026-08-17,Closed Lost,10000,2026-07-26,closed_lost
+D0109,2026-08-17,Discovery,38000,2026-11-18,pipeline
+D0110,2026-08-17,Closed Lost,11000,2026-07-16,closed_lost
+D0111,2026-08-17,Solution Design,76000,2026-10-07,commit
+D0112,2026-08-17,Discovery,172500,2026-09-06,pipeline
+D0113,2026-08-17,Qualification,122500,2026-08-27,pipeline
+D0114,2026-08-17,Discovery,53500,2026-10-12,pipeline
+D0115,2026-08-17,Qualification,55000,2026-09-03,pipeline
+D0116,2026-08-17,Closed Lost,21500,2026-08-14,closed_lost
+D0117,2026-08-17,Closed Lost,51000,2026-08-12,closed_lost
+D0118,2026-08-17,Qualification,8500,2026-10-30,pipeline
+D0119,2026-08-17,Closed Lost,52000,2026-08-08,closed_lost
+D0120,2026-08-17,Proposal,25500,2026-10-21,best_case
+D0121,2026-08-17,Discovery,69500,2026-10-18,pipeline
+D0122,2026-08-17,Discovery,51500,2026-09-03,pipeline
+D0123,2026-08-17,Qualification,71000,2026-09-15,pipeline
+D0124,2026-08-17,Solution Design,21500,2026-10-17,pipeline
+D0125,2026-08-17,Closed Lost,27000,2026-08-14,closed_lost
+D0126,2026-08-17,Solution Design,53000,2026-10-06,best_case
+D0127,2026-08-17,Discovery,108000,2026-10-29,pipeline
+D0128,2026-08-17,Closed Lost,114000,2026-08-16,closed_lost
+D0129,2026-08-17,Solution Design,12000,2026-11-29,commit
+D0130,2026-08-17,Discovery,30500,2026-10-21,pipeline
+D0131,2026-08-17,Discovery,39000,2026-11-09,pipeline
+D0132,2026-08-17,Discovery,83000,2026-09-23,pipeline
+D0133,2026-08-17,Qualification,13500,2026-10-02,pipeline
+D0134,2026-08-17,Qualification,8500,2026-11-27,pipeline
+D0135,2026-08-17,Discovery,50000,2026-11-12,pipeline
+D0136,2026-08-17,Qualification,132000,2026-10-15,pipeline
+D0137,2026-08-17,Qualification,75000,2026-12-08,pipeline

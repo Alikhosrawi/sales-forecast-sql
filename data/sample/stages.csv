@@ -1,0 +1,8 @@
+stage,order_index,default_probability
+Qualification,1,0.1
+Discovery,2,0.2
+Solution Design,3,0.4
+Proposal,4,0.6
+Negotiation,5,0.8
+Closed Won,6,1.0
+Closed Lost,7,0.0

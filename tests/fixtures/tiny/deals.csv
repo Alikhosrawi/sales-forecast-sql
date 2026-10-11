@@ -1,0 +1,6 @@
+deal_id,account_id,rep_id,name,amount_eur,stage,created_at,close_date,forecast_category,is_closed,is_won
+T1,A001,R01,T1 negotiation,10000,Negotiation,2026-07-01,2026-09-10,commit,false,false
+T2,A001,R01,T2 proposal,20000,Proposal,2026-07-01,2026-09-20,best_case,false,false
+T3,A001,R01,T3 won,5000,Closed Won,2026-07-01,2026-08-14,closed_won,true,true
+T4,A001,R01,T4 slipped,7000,Discovery,2026-07-01,2026-10-15,pipeline,false,false
+T5,A001,R01,T5 new,3333,Qualification,2026-08-12,2026-09-30,pipeline,false,false

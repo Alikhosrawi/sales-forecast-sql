@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# Reports from your own runs. The committed example lives in output/sample/.
+output/*
+!output/sample/
+output/sample/_preview.html

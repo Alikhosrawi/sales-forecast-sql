@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "run_week": "2026-08-17",
+  "issues": {
+    "dq_negative_amount": [
+      "D0099"
+    ],
+    "dq_missing_amount": [
+      "D0063"
+    ],
+    "dq_unknown_stage_mapped": [
+      "D0087",
+      "D0068"
+    ],
+    "dq_orphan_rep": [
+      "D0039"
+    ],
+    "dq_duplicate_deal": [
+      "D0090"
+    ],
+    "dq_close_date_in_past": [
+      "D0098"
+    ],
+    "scenario_slipped_to_next_quarter": [
+      "D0069"
+    ],
+    "scenario_pulled_into_quarter": [
+      "D0073"
+    ],
+    "dq_stale_no_activity_21d": "derived: deals whose activity stopped (goes_dark_after)",
+    "dq_close_date_pushed_2x": "derived: close dates pushed by the weekly simulation"
+  }
+}

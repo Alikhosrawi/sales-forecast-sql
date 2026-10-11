@@ -1,0 +1,10 @@
+deal_id,snapshot_week,stage,amount_eur,close_date,forecast_category
+T1,2026-08-10,Proposal,10000,2026-09-10,best_case
+T2,2026-08-10,Proposal,20000,2026-09-20,best_case
+T3,2026-08-10,Negotiation,5000,2026-08-28,commit
+T4,2026-08-10,Discovery,7000,2026-09-25,pipeline
+T1,2026-08-17,Negotiation,10000,2026-09-10,commit
+T2,2026-08-17,Proposal,20000,2026-09-20,best_case
+T3,2026-08-17,Closed Won,5000,2026-08-14,closed_won
+T4,2026-08-17,Discovery,7000,2026-10-15,pipeline
+T5,2026-08-17,Qualification,3333,2026-09-30,pipeline
