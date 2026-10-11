@@ -52,6 +52,102 @@ def pct(x) -> str:
     return "–" if x is None else f"{x:.1f}%"
 
 
+def eur_cents(x) -> str:
+    x = Decimal(x or 0)
+    s = f"€{abs(x):,.2f}"
+    return f"−{s}" if x < 0 else s
+
+
+def eur_cents_signed(x) -> str:
+    x = Decimal(x or 0)
+    return ("+" if x > 0 else "−" if x < 0 else "") + f"€{abs(x):,.2f}"
+
+
+def pct_signed(x) -> str:
+    if x is None:
+        return "n/a"
+    x = Decimal(x)
+    sign = "+" if x > 0 else "−" if x < 0 else ""
+    return f"{sign}{abs(x):.1f}%"
+
+
+def backtest_rows(res: RunResult) -> list[dict]:
+    return res.table("SELECT * FROM backtest ORDER BY quarter_start")
+
+
+def backtest_accuracy_line(res: RunResult) -> str:
+    rows = backtest_rows(res)
+    if not rows:
+        return ("Backtest: this dataset has no earlier quarter with a week-6 snapshot, "
+                "so there is no closed quarter to score yet.")
+    bits = []
+    for r in rows:
+        eur = eur_cents_signed(r["error_eur"])
+        if r["error_pct"] is None:
+            bits.append(
+                f"{r['quarter_label']} as of {r['as_of_label']} error {eur} "
+                f"(percent not defined, actual closed won {eur_cents(r['actual_eur'])})"
+            )
+        else:
+            bits.append(
+                f"{r['quarter_label']} as of {r['as_of_label']} error {pct_signed(r['error_pct'])} ({eur})"
+            )
+    return "Backtest, week-6 forecast versus actual closed won: " + "; ".join(bits) + "."
+
+
+def write_backtest(res: RunResult, out_dir: Path) -> Path:
+    """output/backtest.md (or <out>/backtest.md). Numbers come from the SQL backtest only."""
+    p = res.one("SELECT * FROM params")
+    rows = backtest_rows(res)
+    lines = [
+        "# Backtest",
+        "",
+        "Forecast as of week 6 of each of the two quarters before the current one, "
+        "compared with the closed-won total that quarter finished with. "
+        "Week 6 is the 6th Monday snapshot inside the quarter. "
+        "The forecast is the same weighted number this pipeline would have produced that week. "
+        "Error = forecast − actual. A positive error means the week-6 forecast was higher than the result.",
+        "",
+        f"Run week: {res.week_label} (snapshot {p['run_week']:%Y-%m-%d}).",
+        "",
+    ]
+    if not rows:
+        lines += ["No earlier quarter in this dataset has six weekly snapshots, so there is nothing to score.", ""]
+    else:
+        table = []
+        for r in rows:
+            table.append([
+                r["quarter_label"],
+                f"{r['as_of_label']} ({r['as_of_week']:%Y-%m-%d})",
+                eur_cents(r["forecast_eur"]),
+                eur_cents(r["actual_eur"]),
+                eur_cents_signed(r["error_eur"]),
+                pct_signed(r["error_pct"]),
+            ])
+        lines += [
+            md_table(
+                ["Quarter", "As of", "Forecast", "Actual closed won", "Error", "Error %"],
+                table,
+                "llrrrr",
+            ),
+            "",
+        ]
+        for r in rows:
+            if r["error_pct"] is None:
+                err = (f"error {eur_cents_signed(r['error_eur'])} "
+                       f"(percent not defined, because actual closed won is {eur_cents(r['actual_eur'])})")
+            else:
+                err = f"error {eur_cents_signed(r['error_eur'])} ({pct_signed(r['error_pct'])})"
+            lines.append(
+                f"- **{r['quarter_label']}** (as of {r['as_of_label']}, {r['as_of_week']:%d %b %Y}): "
+                f"forecast {eur_cents(r['forecast_eur'])}, actual closed won {eur_cents(r['actual_eur'])}, {err}."
+            )
+        lines.append("")
+    path = out_dir / "backtest.md"
+    path.write_text("\n".join(lines), encoding="utf-8")
+    return path
+
+
 def md_table(headers: list[str], rows: list[list], align: str | None = None) -> str:
     align = align or "l" * len(headers)
     sep = ["---:" if a == "r" else ":---" for a in align]
@@ -238,6 +334,9 @@ def write_report(res: RunResult, out_dir: Path) -> Path:
             f"{len(failing)} raised warnings, none blocked the run. Full detail: "
             f"[data_quality_{res.week_label}.md](data_quality_{res.week_label}.md)", ""]
     out += [f"- **{c.check_id}**: {len(c.failing_rows)} row(s). {c.description}" for c in failing] + [""]
+
+    out += ["## Backtest", "", backtest_accuracy_line(res), "",
+            "Full quarter-by-quarter figures: [backtest.md](backtest.md).", ""]
 
     probs = res.table("SELECT * FROM stage_probability WHERE order_index <= 5 ORDER BY order_index")
     out += ["## How deals were weighted", "",

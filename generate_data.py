@@ -58,15 +58,15 @@ REPS = [
 
 ACCOUNT_PREFIXES = [
     "Alsterbogen", "Brückenhof", "Deichgraf", "Elbwiese", "Fleetkante", "Grünspan",
-    "Hafenkran", "Ilmenau", "Kranichfeld", "Lotsenhaus", "Moorblick", "Nordstern",
+    "Hafenkran", "Ilmenau", "Kranichfeld", "Lotsenhaus", "Moorblick", "Nordkliff",
     "Ostkai", "Pfefferland", "Quellwerk", "Rotklinker", "Sandtorhafen", "Tidenhub",
-    "Uferlicht", "Wellenbrecher", "Zollkontor", "Backsteinhof", "Dünenweg", "Möwenpick",
+    "Uferlicht", "Wellenbrecher", "Zollkontor", "Backsteinhof", "Dünenweg", "Möwenkai",
 ]
-INDUSTRIES = ["Logistics", "Retail", "Manufacturing", "Healthcare", "Energy", "Insurance", "Media", "Food & Beverage"]
+INDUSTRIES = ["Logistics", "Retail", "Manufacturing", "Healthcare", "Energy", "Insurance", "Media", "Hospitality"]
 INDUSTRY_WORD = {
     "Logistics": "Logistik", "Retail": "Handel", "Manufacturing": "Maschinenbau",
     "Healthcare": "Medizintechnik", "Energy": "Energie", "Insurance": "Versicherung",
-    "Media": "Medien", "Food & Beverage": "Feinkost",
+    "Media": "Medien", "Hospitality": "Gastgewerbe",
 }
 REGIONS = ["North", "West", "South", "East", "DACH-Remote"]
 SIZE_BANDS = [("SMB", 6_000, 22_000), ("Mid", 18_000, 60_000), ("Large", 45_000, 140_000)]

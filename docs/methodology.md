@@ -74,7 +74,17 @@ The order matters only for deals where two things happened at once (for example 
 
 The sentence is built from the bridge: the two largest buckets that moved in the same direction as the total are the "mainly because", and the largest bucket in the other direction is the "partly offset by". For the biggest driver, the deal name is added so the reader knows where to look first.
 
-## 7. Risk flags (`sql/risk/`)
+## 7. The backtest (`sql/backtest/`)
+
+For each of the two quarters before the run week, the pipeline rebuilds the forecast as it stood in **week 6** of that quarter and compares it with the closed-won total the quarter finished with.
+
+Week 6 is the 6th Monday snapshot whose date falls inside the quarter (Q1 2026 starts on Thursday 1 Jan, so its 6th Monday is 9 Feb). The forecast uses the same rules as a live run for that week: historical win rate by stage when at least 10 deals closed before the quarter had reached it, otherwise the default; won deals due in the quarter count in full; open deals due in the quarter count as amount × probability, rounded to the cent. Deals are cleaned the same way (one row per deal, legacy stage names translated, negative amounts left out, missing amounts counted as €0).
+
+The actual is not the week-6 number. It is the sum of amounts on deals whose latest snapshot is Closed Won and whose close date falls in that quarter.
+
+Error = forecast − actual, in EUR and as a percent of the actual. A positive error means the week-6 forecast was higher than the result. When the actual is €0 the percent is left undefined rather than invented. Both figures are written to `output/backtest.md` from that table, and the weekly report quotes the same line.
+
+## 8. Risk flags (`sql/risk/`)
 
 For every open deal, five signals, each with its own sentence:
 

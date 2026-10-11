@@ -1,10 +1,10 @@
 deal_id,account_id,rep_id,name,amount_eur,stage,created_at,close_date,forecast_category,is_closed,is_won
 D0001,A002,R01,Grünspan – Onboarding package,35000,Closed Lost,2026-01-03,2026-02-26,closed_lost,True,False
 D0002,A019,R01,Wellenbrecher – Pipeline analytics pilot,34500,Closed Lost,2025-12-30,2026-03-04,closed_lost,True,False
-D0003,A008,R02,Nordstern – Data quality audit,49500,Closed Lost,2025-12-30,2026-01-18,closed_lost,True,False
-D0004,A008,R03,Nordstern – Analytics platform licence,69500,Closed Lost,2026-01-03,2026-01-24,closed_lost,True,False
+D0003,A008,R02,Nordkliff – Data quality audit,49500,Closed Lost,2025-12-30,2026-01-18,closed_lost,True,False
+D0004,A008,R03,Nordkliff – Analytics platform licence,69500,Closed Lost,2026-01-03,2026-01-24,closed_lost,True,False
 D0005,A014,R04,Hafenkran – Reporting automation,60000,Closed Won,2025-12-31,2026-05-16,closed_won,True,True
-D0006,A008,R01,Nordstern – Annual renewal uplift,42000,Closed Won,2026-01-11,2026-04-25,closed_won,True,True
+D0006,A008,R01,Nordkliff – Annual renewal uplift,42000,Closed Won,2026-01-11,2026-04-25,closed_won,True,True
 D0007,A003,R01,Uferlicht – Forecasting module,40000,Closed Lost,2026-01-07,2026-03-15,closed_lost,True,False
 D0008,A014,R02,Hafenkran – Seat expansion,48000,Closed Lost,2026-01-10,2026-01-14,closed_lost,True,False
 D0009,A021,R02,Kranichfeld – BI migration,37000,Closed Won,2026-01-09,2026-05-02,closed_won,True,True
@@ -12,17 +12,17 @@ D0010,A019,R03,Wellenbrecher – Seat expansion,25500,Closed Lost,2026-01-07,202
 D0011,A011,R04,Brückenhof – Data quality audit,152000,Closed Lost,2026-01-11,2026-01-15,closed_lost,True,False
 D0012,A024,R04,Zollkontor – Seat expansion,15500,Closed Won,2026-01-07,2026-05-31,closed_won,True,True
 D0013,A019,R02,Wellenbrecher – Seat expansion,49000,Closed Lost,2026-01-18,2026-02-15,closed_lost,True,False
-D0014,A008,R03,Nordstern – Pipeline analytics pilot,36500,Closed Lost,2026-01-16,2026-04-11,closed_lost,True,False
+D0014,A008,R03,Nordkliff – Pipeline analytics pilot,36500,Closed Lost,2026-01-16,2026-04-11,closed_lost,True,False
 D0015,A021,R03,Kranichfeld – BI migration,47500,Closed Lost,2026-01-14,2026-03-21,closed_lost,True,False
 D0016,A021,R01,Kranichfeld – BI migration,32000,Closed Lost,2026-01-21,2026-05-15,closed_lost,True,False
 D0017,A009,R03,Quellwerk – Reporting automation,17000,Closed Won,2026-01-25,2026-07-19,closed_won,True,True
 D0018,A017,R03,Dünenweg – Annual renewal uplift,12500,Closed Lost,2026-01-25,2026-01-28,closed_lost,True,False
-D0019,A008,R01,Nordstern – Data quality audit,21500,Closed Lost,2026-01-30,2026-06-21,closed_lost,True,False
+D0019,A008,R01,Nordkliff – Data quality audit,21500,Closed Lost,2026-01-30,2026-06-21,closed_lost,True,False
 D0020,A005,R02,Pfefferland – Forecasting module,104500,Closed Lost,2026-01-31,2026-04-03,closed_lost,True,False
 D0021,A015,R03,Lotsenhaus – Reporting automation,77500,Closed Won,2026-01-29,2026-06-17,closed_won,True,True
 D0022,A023,R01,Elbwiese – BI migration,20000,Closed Lost,2026-02-07,2026-04-18,closed_lost,True,False
 D0023,A018,R01,Fleetkante – Annual renewal uplift,10500,Closed Lost,2026-02-05,2026-02-28,closed_lost,True,False
-D0024,A008,R03,Nordstern – Reporting automation,38000,Closed Won,2026-02-05,2026-05-13,closed_won,True,True
+D0024,A008,R03,Nordkliff – Reporting automation,38000,Closed Won,2026-02-05,2026-05-13,closed_won,True,True
 D0025,A006,R03,Moorblick – Data quality audit,16000,Closed Lost,2026-02-05,2026-03-12,closed_lost,True,False
 D0026,A002,R01,Grünspan – Pipeline analytics pilot,48000,Closed Won,2026-02-14,2026-06-03,closed_won,True,True
 D0027,A016,R02,Deichgraf – Reporting automation,14500,Closed Won,2026-02-15,2026-05-24,closed_won,True,True
@@ -50,7 +50,7 @@ D0048,A024,R01,Zollkontor – Forecasting module,14500,Closed Lost,2026-03-22,20
 D0049,A022,R02,Alsterbogen – Analytics platform licence,9000,Closed Lost,2026-03-21,2026-03-29,closed_lost,True,False
 D0050,A014,R04,Hafenkran – Pipeline analytics pilot,65000,Closed Won,2026-03-18,2026-06-26,closed_won,True,True
 D0051,A010,R02,Sandtorhafen – Annual renewal uplift,14000,Closed Lost,2026-03-28,2026-04-08,closed_lost,True,False
-D0052,A008,R03,Nordstern – BI migration,42000,Closed Won,2026-03-27,2026-07-05,closed_won,True,True
+D0052,A008,R03,Nordkliff – BI migration,42000,Closed Won,2026-03-27,2026-07-05,closed_won,True,True
 D0053,A018,R03,Fleetkante – Forecasting module,25000,Closed Won,2026-03-25,2026-07-12,closed_won,True,True
 D0054,A014,R02,Hafenkran – Analytics platform licence,28000,Closed Lost,2026-04-03,2026-06-28,closed_lost,True,False
 D0055,A020,R03,Ilmenau – Forecasting module,45500,Proposal,2026-04-04,2026-09-16,best_case,False,False
@@ -60,7 +60,7 @@ D0058,A015,R02,Lotsenhaus – Revenue Dashboard rollout,127500,Closed Won,2026-0
 D0059,A015,R02,Lotsenhaus – Onboarding package,126000,Closed Lost,2026-04-07,2026-06-03,closed_lost,True,False
 D0060,A007,R03,Tidenhub – Data quality audit,64000,Closed Lost,2026-04-09,2026-06-17,closed_lost,True,False
 D0061,A016,R03,Deichgraf – Revenue Dashboard rollout,9500,Closed Lost,2026-04-10,2026-04-17,closed_lost,True,False
-D0062,A004,R04,Möwenpick – Revenue Dashboard rollout,33500,Closed Lost,2026-04-11,2026-07-16,closed_lost,True,False
+D0062,A004,R04,Möwenkai – Revenue Dashboard rollout,33500,Closed Lost,2026-04-11,2026-07-16,closed_lost,True,False
 D0063,A015,R01,Lotsenhaus – Seat expansion,,Discovery,2026-04-17,2026-08-25,pipeline,False,False
 D0064,A014,R03,Hafenkran – Seat expansion,36500,Closed Lost,2026-04-19,2026-06-28,closed_lost,True,False
 D0065,A021,R03,Kranichfeld – Analytics platform licence,26500,Closed Lost,2026-04-22,2026-06-13,closed_lost,True,False
@@ -77,8 +77,8 @@ D0075,A022,R01,Alsterbogen – BI migration,9000,Closed Lost,2026-05-05,2026-08-
 D0076,A001,R02,Rotklinker – Revenue Dashboard rollout,26500,Closed Lost,2026-05-07,2026-06-13,closed_lost,True,False
 D0077,A005,R03,Pfefferland – Data quality audit,90000,Qualification,2026-05-10,2026-09-27,pipeline,False,False
 D0078,A020,R04,Ilmenau – Seat expansion,60000,Qualification,2026-05-05,2026-09-03,pipeline,False,False
-D0079,A008,R01,Nordstern – Data quality audit,34000,Solution Design,2026-05-17,2026-09-10,best_case,False,False
-D0080,A004,R02,Möwenpick – Onboarding package,17500,Closed Lost,2026-05-12,2026-05-24,closed_lost,True,False
+D0079,A008,R01,Nordkliff – Data quality audit,34000,Solution Design,2026-05-17,2026-09-10,best_case,False,False
+D0080,A004,R02,Möwenkai – Onboarding package,17500,Closed Lost,2026-05-12,2026-05-24,closed_lost,True,False
 D0081,A016,R02,Deichgraf – Reporting automation,6500,Closed Lost,2026-05-16,2026-06-03,closed_lost,True,False
 D0082,A002,R04,Grünspan – Forecasting module,40500,Closed Lost,2026-05-13,2026-06-03,closed_lost,True,False
 D0083,A011,R01,Brückenhof – Pipeline analytics pilot,129500,Closed Lost,2026-05-19,2026-07-09,closed_lost,True,False
@@ -102,9 +102,9 @@ D0099,A002,R01,Grünspan – Pipeline analytics pilot,-37500,Solution Design,202
 D0100,A010,R02,Sandtorhafen – Annual renewal uplift,20500,Proposal,2026-06-17,2026-10-31,best_case,False,False
 D0101,A003,R03,Uferlicht – Pipeline analytics pilot,76000,Closed Lost,2026-06-18,2026-07-23,closed_lost,True,False
 D0102,A015,R03,Lotsenhaus – Reporting automation,161000,Qualification,2026-06-19,2026-09-16,pipeline,False,False
-D0103,A008,R04,Nordstern – Annual renewal uplift,78000,Closed Lost,2026-06-17,2026-07-05,closed_lost,True,False
+D0103,A008,R04,Nordkliff – Annual renewal uplift,78000,Closed Lost,2026-06-17,2026-07-05,closed_lost,True,False
 D0104,A012,R01,Ostkai – Annual renewal uplift,28000,Negotiation,2026-06-27,2026-10-27,commit,False,False
-D0105,A008,R03,Nordstern – Forecasting module,65500,Solution Design,2026-06-27,2026-09-09,commit,False,False
+D0105,A008,R03,Nordkliff – Forecasting module,65500,Solution Design,2026-06-27,2026-09-09,commit,False,False
 D0106,A003,R03,Uferlicht – Analytics platform licence,30000,Closed Lost,2026-06-25,2026-07-11,closed_lost,True,False
 D0107,A012,R01,Ostkai – Data quality audit,19000,Closed Lost,2026-07-02,2026-07-12,closed_lost,True,False
 D0108,A022,R01,Alsterbogen – Seat expansion,10000,Closed Lost,2026-07-05,2026-07-26,closed_lost,True,False
@@ -125,7 +125,7 @@ D0122,A020,R02,Ilmenau – Forecasting module,51500,Discovery,2026-07-23,2026-09
 D0123,A021,R03,Kranichfeld – BI migration,71000,Qualification,2026-07-24,2026-09-15,pipeline,False,False
 D0124,A010,R04,Sandtorhafen – BI migration,21500,Solution Design,2026-07-24,2026-10-17,pipeline,False,False
 D0125,A001,R01,Rotklinker – Forecasting module,27000,Closed Lost,2026-07-31,2026-08-14,closed_lost,True,False
-D0126,A008,R03,Nordstern – Forecasting module,53000,Solution Design,2026-07-28,2026-10-06,best_case,False,False
+D0126,A008,R03,Nordkliff – Forecasting module,53000,Solution Design,2026-07-28,2026-10-06,best_case,False,False
 D0127,A011,R01,Brückenhof – Onboarding package,108000,Discovery,2026-08-07,2026-10-29,pipeline,False,False
 D0128,A011,R02,Brückenhof – Reporting automation,114000,Closed Lost,2026-08-09,2026-08-16,closed_lost,True,False
 D0129,A017,R02,Dünenweg – Seat expansion,12000,Solution Design,2026-08-07,2026-11-29,commit,False,False

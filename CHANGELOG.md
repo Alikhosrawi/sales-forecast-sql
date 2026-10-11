@@ -8,6 +8,18 @@ Changes to the *numbers* are tracked separately, run by run, in `output/run_log.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-11
+
+### Added
+- Quarter backtest (`sql/backtest/`): week 6 of each of the two previous quarters versus actual closed won, in EUR and percent, written to `output/backtest.md` and quoted in the weekly report.
+- `scripts/leak_scan.sh`, wired into GitHub Actions. The word list is read from a gitignored local file or from the `LEAK_WORDS` Actions secret. If neither is set, the step warns and checks credential assignments only.
+- A pytest that runs the backtest and checks the output file against the run.
+
+### Changed
+- The fictional company name is Fernbrook Analytics.
+- One industry label and two account-name stems were renamed so the sample stays fictional and clear of the word list.
+- Letter-only word-list hits must be whole tokens, so the standard licence text is not flagged.
+
 ## [0.1.0] - 2026-10-11
 
 ### Added

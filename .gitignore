@@ -2,7 +2,11 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .venv/
-# Reports from your own runs. The committed example lives in output/sample/.
+# Local word list for scripts/leak_scan.sh. Never commit it.
+.leakwords
+# Reports from your own runs. The committed example lives in output/sample/
+# and output/backtest.md.
 output/*
 !output/sample/
+!output/backtest.md
 output/sample/_preview.html

@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -24,7 +26,12 @@ jobs:
       - name: Tests
         run: python -m pytest -v
 
+      - name: Leak scan
+        env:
+          LEAK_WORDS: ${{ secrets.LEAK_WORDS }}
+        run: bash scripts/leak_scan.sh
+
       - name: Committed sample reports are up to date
         run: |
           python run.py --sample
-          git diff --exit-code -- 'output/sample/*.md'
+          git diff --exit-code -- 'output/sample/*.md' 'output/backtest.md'

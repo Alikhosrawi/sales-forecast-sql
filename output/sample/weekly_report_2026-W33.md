@@ -72,6 +72,12 @@ Buckets add up to the total change exactly: +€124,499 = €1,400,934 − €1,
 - **dq_stale_no_activity_21d**: 11 row(s). Open deals have at least one logged activity in the last 21 days.
 - **dq_close_date_pushed_2x**: 11 row(s). Open deals have not had their close date pushed out two or more times.
 
+## Backtest
+
+Backtest, week-6 forecast versus actual closed won: Q1 2026 as of 2026-W07 error +€49,600.00 (percent not defined, actual closed won €0.00); Q2 2026 as of 2026-W20 error +16.8% (+€80,200.00).
+
+Full quarter-by-quarter figures: [backtest.md](backtest.md).
+
 ## How deals were weighted
 
 | Stage | Probability used | Source | Default |

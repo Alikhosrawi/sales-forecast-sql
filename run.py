@@ -15,7 +15,7 @@ from datetime import timedelta
 from pathlib import Path
 
 from pipeline.engine import ROOT, run_pipeline
-from pipeline.report import append_run_log, write_data_quality, write_report
+from pipeline.report import append_run_log, write_backtest, write_data_quality, write_report
 
 DEFAULT_DATA = ROOT / "data" / "sample"
 
@@ -34,11 +34,13 @@ def run_once(data_dir: Path, out_dir: Path, week: str | None) -> int:
         print(f"Details: {dq.relative_to(Path.cwd()) if dq.is_relative_to(Path.cwd()) else dq}")
         return 2
     report = write_report(res, out_dir)
+    backtest = write_backtest(res, out_dir)
     headline = res.one("SELECT headline FROM headline")["headline"]
     warns = sum(1 for c in res.checks if not c.passed)
     print(f"\n{res.week_label}: {headline}")
     print(f"  data checks: {len(res.checks) - warns} passed, {warns} warnings, 0 blockers")
     print(f"  report:      {report}")
+    print(f"  backtest:    {backtest}")
     print(f"  run log:     {out_dir / 'run_log.csv'} (git {log['git_commit']})")
     return 0
 
@@ -67,6 +69,9 @@ def main(argv: list[str] | None = None) -> int:
         code = 0
         for w in (latest - timedelta(days=7), latest):   # last week first, so the run log shows the change
             code = max(code, run_once(a.data, out, w.isoformat()))
+        sample_bt = out / "backtest.md"
+        if sample_bt.exists():
+            (ROOT / "output" / "backtest.md").write_bytes(sample_bt.read_bytes())
         return code
     return run_once(a.data, a.out, a.week)
 

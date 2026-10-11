@@ -30,7 +30,7 @@ TABLES = {
     "activities": ("activities.csv", {"activity_id": "VARCHAR", "deal_id": "VARCHAR", "type": "VARCHAR",
                                       "occurred_at": "DATE"}),
 }
-STEPS_AFTER_CHECKS = ["clean", "forecast", "risk", "bridge", "report"]
+STEPS_AFTER_CHECKS = ["clean", "forecast", "risk", "bridge", "backtest", "report"]
 
 
 class BlockerError(RuntimeError):
@@ -112,7 +112,7 @@ class RunResult:
 
 
 def run_pipeline(data_dir: Path, week: str | date | None = None) -> RunResult:
-    """Run checks -> clean -> forecast -> risk -> bridge -> report (SQL). Raises BlockerError on a BLOCKER."""
+    """Run checks -> clean -> forecast -> risk -> bridge -> backtest -> report (SQL). Raises BlockerError on a BLOCKER."""
     con = duckdb.connect()
     load(con, data_dir)
     if week is None:
