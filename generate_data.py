@@ -25,7 +25,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 
-FIRST_WEEK = date(2026, 1, 5)   # Monday, start of history (Q1 2026)
+# First Monday of Q4 2025. The scored quarters are Q1 and Q2 2026, and a deal
+# created on the first Monday of Q1 cannot reach Closed Won before that quarter
+# ends. Starting the quarter before gives Q1 a pipeline that was already moving.
+FIRST_WEEK = date(2025, 10, 6)
 LAST_WEEK = date(2026, 8, 17)   # Monday, the sample "this week" (mid Q3 2026)
 
 STAGES = [

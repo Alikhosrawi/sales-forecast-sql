@@ -50,6 +50,9 @@ def test_backtest_matches_pipeline_and_output_file(tmp_path):
     rows = res.table("SELECT * FROM backtest ORDER BY quarter_start")
     assert len(rows) == 2
     assert len(parsed) == 2
+    for row in rows:
+        assert row["actual_eur"] > 0
+        assert row["error_pct"] is not None
     for got, row in zip(parsed, rows):
         assert got["quarter"] == row["quarter_label"]
         assert row["as_of_label"] in got["as_of"]

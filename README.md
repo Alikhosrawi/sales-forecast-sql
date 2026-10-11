@@ -8,7 +8,7 @@
 
 Most forecasts tell you the number, not why it moved.
 
-On Monday the forecast says €1.32M. Last Monday it said €1.40M. In most teams, the next hour goes into working out what happened: which deal slipped, which one was lost, whether a rep just tidied up their stages, or whether a broken record in the CRM quietly changed the total. This project does that hour of work automatically, every week, and writes it down.
+On Monday the forecast says €937k. Last Monday it said €921k. In most teams, the next hour goes into working out what happened: which deal slipped, which one was lost, whether a rep just tidied up their stages, or whether a broken record in the CRM quietly changed the total. This project does that hour of work automatically, every week, and writes it down.
 
 ## What it does
 
@@ -48,7 +48,7 @@ All business rules live in the `.sql` files. Python generates the sample data an
 
 These are the real problems hit during the build, in the order they came up:
 
-- **The first dataset was not believable.** The first generated CRM had only 84 deals and the forecast landed at 144% of quota. Nobody would trust a report built on that. I tuned how often deals are created and won, and raised the quotas, until the numbers looked like a normal mid-quarter: 43% attainment, forecast close to 100%.
+- **The first dataset was not believable.** The first generated CRM had only 84 deals and the forecast landed at 144% of quota. Nobody would trust a report built on that. I tuned how often deals are created and won, and raised the quotas, until the numbers looked like a normal mid-quarter: 43% attainment, forecast close to 100%. That shape belonged to history that started in January 2026. Starting one quarter earlier (the Q1 note below) moved the sample week to 25.9% attainment and a forecast at 70.5% of quota. The creation rate, win rate and quotas were left alone.
 - **One injected data problem would have changed the meaning of a deal.** The first version of the "old stage name" problem turned any stage that wasn't Proposal or Negotiation into "Disco", which the cleaning step reads as Discovery. A deal in Qualification would have silently moved up a stage. Caught when reviewing the generator, before the first run, and replaced with a one-to-one list of old names.
 - **The sample week was too quiet.** With seed 42, the week of 17 Aug had no slips and no new deals in the quarter, so the report could not show the most important thing it does. The generator now scripts two events in that week (the largest late-stage deal slips into Q4, one Q4 deal is pulled in). Both are written to `injected_issues.json` so nothing is hidden.
 - **A DuckDB error when ranking risky deals.** Ranking deals with a window function on top of a `GROUP BY ALL` aggregate fails with "Cannot mix aggregates with non-aggregated columns". Fixed by grouping first, ranking second.
@@ -57,25 +57,24 @@ These are the real problems hit during the build, in the order they came up:
 - **The waterfall chart's labels overlapped.** Long bucket names collided under the bars. The chart now uses short labels, wrapped over two lines.
 - **One industry label was on the word list.** The generator named an industry with a word the leak scan flags, so that label was renamed to Hospitality and the sample data regenerated. The random draw did not change, so the forecast amounts stayed the same.
 - **The licence text collided with the word list.** The standard MIT wording contains a longer word that starts with one list entry. Letter-only entries now have to be a whole token, so the licence file stays as the real MIT text. The entry was not removed from the list.
-- **Q1 looked like a broken backtest.** The first backtest showed €0 actual closed won for Q1 2026. A direct count of the latest snapshots confirmed it: no deal in this seed closed won with a close date in Q1. The percent is left undefined instead of being invented. The EUR error is still reported.
+- **Q1 had no closed won, so the percent error was undefined.** History started on Monday 5 Jan 2026. A new deal begins in Qualification or Discovery and needs several weekly stage moves before it can be won, so in this seed nothing reached Closed Won with a close date inside Q1. The backtest reported €0 actual and left the percent blank. History now starts on Monday 6 Oct 2025, so Q1 already has a pipeline in motion. The errors were not nudged. The weekly simulation has the same shape one quarter earlier, so Q1's miss of +16.8% (forecast €556,700.00, actual €476,500.00, error +€80,200.00) is the previous Q2 book moved one quarter earlier. The new Q2 miss is +7.1% (forecast €1,391,399.10, actual €1,299,500.00, error +€91,899.10).
 
 ## Example output
 
 From the sample week (2026-W34, snapshot of 17 Aug 2026):
 
-> **Forecast is €1,316,387 (commit €793,000), down €84,547 vs last week, mainly because 1 deal slipped out of the quarter (−€94,500: Lotsenhaus – Forecasting module) and 5 deals were lost (−€55,559), partly offset by stage moves (+€56,927 across 9 deals).**
+> **Forecast is €937,149 (commit €570,500), up €15,983 vs last week, mainly because 2 deals were pulled into the quarter (+€52,822; biggest: Grünspan – Pipeline analytics pilot) and 5 deals changed stage (+€25,297), partly offset by slipped deals (−€42,852).**
 
 | Amount | Bucket |
 | ---: | :--- |
-| €1,400,934 | Last week's forecast |
-| +€12,691 | Pulled into the quarter (1 deal) |
-| +€12,000 | Won (1 deal) |
-| −€55,559 | Lost (5 deals) |
-| −€94,500 | Slipped out of the quarter (1 deal) |
-| +€1,200 | Amount increased (1 deal) |
-| +€56,927 | Stage moves (9 deals) |
-| −€17,306 | Excluded by data checks (1 deal with a negative amount) |
-| **€1,316,387** | **This week's forecast** (change −€84,547.40, unexplained €0.00) |
+| €921,166 | Last week's forecast |
+| +€52,822 | Pulled into the quarter (2 deals) |
+| −€3,110 | Lost (1 deal) |
+| −€42,852 | Slipped out of the quarter (1 deal) |
+| +€409 | Amount increased (1 deal) |
+| +€25,297 | Stage moves (5 deals) |
+| −€16,584 | Excluded by data checks (1 deal) |
+| **€937,149** | **This week's forecast** (change +€15,983, unexplained €0.00) |
 
 ![Forecast bridge](output/sample/charts/bridge_2026-W34.png)
 
@@ -83,8 +82,8 @@ Backtest (week-6 forecast versus the closed won the quarter finished with):
 
 | Quarter | As of | Forecast | Actual closed won | Error |
 | :--- | :--- | ---: | ---: | ---: |
-| Q1 2026 | 2026-W07 (9 Feb 2026) | €49,600.00 | €0.00 | +€49,600.00 (percent not defined) |
-| Q2 2026 | 2026-W20 (11 May 2026) | €556,700.00 | €476,500.00 | +€80,200.00 (+16.8%) |
+| Q1 2026 | 2026-W07 (9 Feb 2026) | €556,700.00 | €476,500.00 | +€80,200.00 (+16.8%) |
+| Q2 2026 | 2026-W20 (11 May 2026) | €1,391,399.10 | €1,299,500.00 | +€91,899.10 (+7.1%) |
 
 Full reports: [this week](output/sample/weekly_report_2026-W34.md), [last week](output/sample/weekly_report_2026-W33.md), [backtest](output/backtest.md), [data quality](output/sample/data_quality_2026-W34.md), [run log](output/sample/run_log.csv).
 

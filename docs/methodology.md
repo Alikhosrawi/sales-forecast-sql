@@ -82,7 +82,7 @@ Week 6 is the 6th Monday snapshot whose date falls inside the quarter (Q1 2026 s
 
 The actual is not the week-6 number. It is the sum of amounts on deals whose latest snapshot is Closed Won and whose close date falls in that quarter.
 
-Error = forecast − actual, in EUR and as a percent of the actual. A positive error means the week-6 forecast was higher than the result. When the actual is €0 the percent is left undefined rather than invented. Both figures are written to `output/backtest.md` from that table, and the weekly report quotes the same line.
+Error = forecast − actual, in EUR and as a percent of the actual. A positive error means the week-6 forecast was higher than the result. When the actual is €0 the percent is left undefined rather than invented. The sample history starts on Monday 6 Oct 2025 so that both scored quarters contain closed won; a history that starts on the first Monday of Q1 cannot, because a new deal does not reach Closed Won inside that quarter. Both figures are written to `output/backtest.md` from that table, and the weekly report quotes the same line.
 
 ## 8. Risk flags (`sql/risk/`)
 
