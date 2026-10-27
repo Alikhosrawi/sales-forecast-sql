@@ -8,6 +8,9 @@ Changes to the *numbers* are tracked separately, run by run, in `output/run_log.
 
 ## [Unreleased]
 
+### Changed
+- The fictional industry label is Consumer Goods. Its German account-name suffix is Handel.
+
 ### Fixed
 - Sample history starts on Monday 6 Oct 2025. Starting on 5 Jan 2026 meant no deal could be closed won inside Q1 2026, so the Q1 percent error was undefined. Both backtest quarters now have a closed-won total and a defined percent and EUR error. The errors that fell out were not tuned, and the sample week of 17 Aug 2026 was regenerated from the same seed.
 

@@ -6,7 +6,7 @@ A004,Möwenkai Medizintechnik GmbH,Healthcare,SMB,West
 A005,Pfefferland Energie AG,Energy,Large,North
 A006,Moorblick Versicherung GmbH,Insurance,SMB,South
 A007,Tidenhub Medien GmbH,Media,Large,North
-A008,Nordkliff Gastgewerbe GmbH,Hospitality,Mid,DACH-Remote
+A008,Nordkliff Handel GmbH,Consumer Goods,Mid,DACH-Remote
 A009,Quellwerk Logistik GmbH,Logistics,SMB,East
 A010,Sandtorhafen Handel GmbH,Retail,SMB,South
 A011,Brückenhof Maschinenbau GmbH,Manufacturing,Large,South
@@ -14,7 +14,7 @@ A012,Ostkai Medizintechnik GmbH,Healthcare,Mid,North
 A013,Backsteinhof Energie GmbH,Energy,SMB,West
 A014,Hafenkran Versicherung GmbH,Insurance,Mid,North
 A015,Lotsenhaus Medien GmbH,Media,Large,East
-A016,Deichgraf Gastgewerbe GmbH,Hospitality,SMB,South
+A016,Deichgraf Handel GmbH,Consumer Goods,SMB,South
 A017,Dünenweg Logistik GmbH,Logistics,SMB,South
 A018,Fleetkante Handel GmbH,Retail,SMB,South
 A019,Wellenbrecher Maschinenbau GmbH,Manufacturing,Mid,North
@@ -22,4 +22,4 @@ A020,Ilmenau Medizintechnik GmbH,Healthcare,Mid,West
 A021,Kranichfeld Energie GmbH,Energy,Mid,West
 A022,Alsterbogen Versicherung GmbH,Insurance,SMB,East
 A023,Elbwiese Medien GmbH,Media,SMB,DACH-Remote
-A024,Zollkontor Gastgewerbe GmbH,Hospitality,SMB,South
+A024,Zollkontor Handel GmbH,Consumer Goods,SMB,South
